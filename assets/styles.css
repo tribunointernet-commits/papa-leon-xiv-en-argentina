@@ -255,3 +255,11 @@
 .agenda-map-link:focus-visible{outline:3px solid #b99336;outline-offset:2px}
 .agenda-map-link svg{flex:none}
 @media(prefers-reduced-motion:reduce){.agenda-map-link{transition:none}}
+
+/* V7 · Desglose de los viajes papales: cuadros accesibles con scroll interno. */
+.papal-tooltip{width:min(360px,calc(100vw - 24px));max-height:min(470px,calc(100dvh - 24px));overflow-y:auto;overscroll-behavior:contain;pointer-events:auto;white-space:normal;display:block;padding:18px 40px 18px 17px}
+.papal-tooltip-content{white-space:pre-line;display:block;line-height:1.65}
+.papal-tooltip-close{position:absolute;right:8px;top:6px;display:grid;place-items:center;width:30px;height:30px;color:#fff;background:transparent;border:0;border-radius:50%;font-size:22px;line-height:1;cursor:pointer}
+.papal-tooltip-close:hover,.papal-tooltip-close:focus-visible{background:#ffffff26;outline:2px solid #e1bd69}
+.papal-bar[aria-expanded="true"],.papal-country[aria-expanded="true"]{outline:2px solid #b99336;outline-offset:2px}
+@media(max-width:600px){.papal-tooltip{position:fixed;left:12px;right:12px;bottom:12px;top:auto;width:calc(100vw - 24px);max-height:min(55dvh,430px);box-shadow:0 8px 30px #101c3070}}
