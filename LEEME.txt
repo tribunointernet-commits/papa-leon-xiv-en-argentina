@@ -1,8 +1,14 @@
-ACTUALIZACIÓN BIOGRAFÍA LEÓN XIV - EL TRIBUNO
+CORRECCIÓN DE AGENDA + GRÁFICO | EL TRIBUNO
 
-Reemplazá SOLO index.html y assets/styles.css en el repositorio. Conservá assets/app.js, assets/agenda.js, data, scripts y .github.
+Subir a la raíz del repositorio conservando estas rutas:
+- index.html (reemplazar)
+- assets/styles.css (reemplazar)
+- assets/agenda.js (agregar/reemplazar)
+- assets/visitas.js (agregar/reemplazar)
+- assets/biografia.js (agregar/reemplazar)
 
-Se incorpora línea de tiempo desplegable con el año 2004 destacado y abierto inicialmente, y una tarjeta dedicada a la visita a la Prelatura de Cafayate (Salta).
-La agenda con mapas y minuto a minuto siguen conectados a los mismos archivos.
+IMPORTANTE: si ya tenés las fotos de la biografía, no hace falta resubirlas.
+NO MODIFICAR assets/app.js, data/latest.json, scripts ni .github.
 
-Las fechas y los datos de la biografía proceden del texto suministrado por el usuario.
+La agenda se inicia CERRADA. Se despliega una sola ciudad por vez. Los enlaces 'Ver mapa' abren Google Maps.
+La nueva infografía reemplaza la sección 'La visita en imágenes'.

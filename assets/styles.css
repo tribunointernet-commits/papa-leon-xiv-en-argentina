@@ -216,3 +216,42 @@
 @media(max-width:850px){.papal-data-grid{grid-template-columns:1fr}.papal-chart-card{padding:20px}}
 @media(max-width:480px){.papal-data-section{padding-block:56px}.papal-chart-card{padding:17px 14px}.papal-bar{grid-template-columns:100px minmax(0,1fr) 25px;gap:7px}.papal-label{font-size:11px}.papal-chart-heading h3{font-size:20px}.papal-country span{font-size:11px}.papal-country{padding:10px 8px}}
 @media(prefers-reduced-motion:reduce){.papal-fill{transition:none}}
+
+/* Agenda de la visita: filtros por ciudad y línea de tiempo */
+.section-agenda{background:#f8f5ee}
+.agenda-filter{display:flex;gap:10px;flex-wrap:wrap;margin:27px 0 23px}
+.agenda-filter-btn{font:700 13px 'DM Sans',Arial,sans-serif;padding:12px 17px;border:1px solid #dcd6c7;border-radius:100px;background:#fff;color:#24344a;cursor:pointer;display:inline-flex;gap:12px;align-items:center;transition:background .18s ease,color .18s ease,border-color .18s ease}
+.agenda-filter-btn span{display:inline-grid;place-items:center;min-width:25px;padding:3px 5px;border-radius:100px;background:#f0ede6;font-size:11px;color:#566170}
+.agenda-filter-btn.is-active{background:#172d49;color:#fff;border-color:#172d49}
+.agenda-filter-btn.is-active span{background:#b99336;color:#142238}
+.agenda-filter-btn:focus-visible{outline:3px solid #b99336;outline-offset:3px}
+.agenda-panels{border-radius:14px;background:#fff;border:1px solid #e5dfd5;padding:14px 30px 20px;box-shadow:0 15px 35px rgba(21,35,55,.04)}
+.agenda-city-panel[hidden]{display:none!important}
+.agenda-day-group{padding-top:22px}
+.agenda-day-group+.agenda-day-group{margin-top:12px;border-top:1px solid #ece9e2}
+.agenda-day-group h3{font:600 clamp(19px,2vw,24px) 'Playfair Display',Georgia,serif;color:#172d49;margin:0 0 18px}
+.agenda-day-group h3 span{font:500 12px 'DM Sans',sans-serif;color:#8a8d91;margin-left:8px}
+.agenda-timeline{list-style:none;margin:0;padding:0 0 0 4px}
+.agenda-event{display:grid;grid-template-columns:75px 1fr;column-gap:29px;position:relative;padding:0 0 23px}
+.agenda-event:not(:last-child)::before{content:"";position:absolute;left:90px;top:13px;bottom:-7px;width:1px;background:#e8dfcc}
+.agenda-event::after{content:"";position:absolute;left:86px;top:7px;width:9px;height:9px;border:2px solid #fff;border-radius:50%;background:#b99336;box-shadow:0 0 0 1px #dacba9}
+.agenda-event time{font:800 18px 'DM Sans',Arial,sans-serif;color:#ab842c;font-variant-numeric:tabular-nums}
+.agenda-event time span{font-size:10px;font-weight:500}
+.agenda-event-content{padding-left:11px}
+.agenda-event h4{font:600 17px/1.33 'DM Sans',Arial,sans-serif;margin:0 0 6px;color:#182b43}
+.agenda-event p{margin:0 0 5px;font:400 13px/1.5 'DM Sans',Arial,sans-serif;color:#657181}
+.agenda-event p.agenda-note{color:#8d661c;font-weight:700;font-size:12px}
+.agenda-event-link{font:700 12px 'DM Sans',Arial,sans-serif;color:#886719;text-decoration:underline;text-underline-offset:3px}
+.agenda-footnote{font-size:12px;color:#677382;margin:16px 0 0;line-height:1.6}
+@media(max-width:600px){.agenda-filter{gap:7px;margin:18px 0}.agenda-filter-btn{font-size:12px;padding:9px 11px;gap:7px}.agenda-panels{padding:9px 14px 12px}.agenda-event{grid-template-columns:56px 1fr;gap:18px}.agenda-event:not(:last-child)::before{left:65px}.agenda-event::after{left:61px}.agenda-event time{font-size:14px}.agenda-event-content{padding-left:2px}.agenda-event h4{font-size:14px}.agenda-event p{font-size:12px}.agenda-day-group h3{font-size:19px}}
+@media(prefers-reduced-motion:reduce){.agenda-filter-btn{transition:none}}
+
+/* Oculta completamente el panel hasta que el lector elija una ciudad. */
+.agenda-panels[hidden]{display:none!important}
+
+/* Mapas de sedes: accesos discretos dentro de cada evento. */
+.agenda-map-link{display:inline-flex;align-items:center;gap:6px;margin:5px 0 9px;padding:7px 11px;border:1px solid #d6e0ea;border-radius:7px;background:#f7fafc;color:#22466c;font:700 12px/1.2 'DM Sans',Arial,sans-serif;text-decoration:none;transition:background-color .2s ease,border-color .2s ease}
+.agenda-map-link:hover{background:#edf3f9;border-color:#9bb5cf}
+.agenda-map-link:focus-visible{outline:3px solid #b99336;outline-offset:2px}
+.agenda-map-link svg{flex:none}
+@media(prefers-reduced-motion:reduce){.agenda-map-link{transition:none}}
