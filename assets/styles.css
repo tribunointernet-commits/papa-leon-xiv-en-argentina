@@ -28,3 +28,31 @@
  .hero-lede{font-size:16px;line-height:1.55}
  .hero-jump{margin-top:4px}
 }
+
+/* Ajustes v3: logo oficial y portada móvil más compacta. */
+.masthead .wordmark{display:inline-flex;align-items:center;flex:0 0 auto;line-height:1}
+.masthead .wordmark img{width:190px;height:auto;max-height:48px;object-fit:contain}
+@media(max-width:760px){
+ .masthead{height:61px}
+ .masthead .wordmark img{width:165px;max-height:42px}
+ .masthead-news{font-size:11px}
+ .hero-photo{height:clamp(235px,63vw,320px)}
+ .hero-content{padding-top:8px;padding-bottom:58px}
+ .hero h1{font-size:clamp(2.9rem,11vw,4.4rem);line-height:1.07}
+ .hero-lede{margin-bottom:10px}
+ .countdown-wrap{margin-top:-28px}
+ .countdown{gap:12px;padding:16px 12px}
+}
+@media(max-width:380px){
+ .masthead .wordmark img{width:145px}
+ .masthead-news{font-size:10px}
+}
+
+/* Corrección tipográfica: evitar que «en» quede viuda en desktop. */
+.hero h1 .hero-title-line{display:inline-block;white-space:nowrap}
+@media (min-width:761px){
+  .hero h1{font-size:clamp(3rem,4.75vw,5.35rem);letter-spacing:-.045em}
+}
+@media (max-width:760px){
+  .hero h1 .hero-title-line{white-space:normal}
+}
