@@ -56,3 +56,76 @@
 @media (max-width:760px){
   .hero h1 .hero-title-line{white-space:normal}
 }
+
+
+/* V4 · Minuto a minuto en formato línea de tiempo editorial. */
+.section-live{scroll-margin-top:24px}
+.section-live .live-frame{border:1px solid #e6e9ed;border-radius:14px;background:#fff;box-shadow:0 14px 38px rgba(16,28,48,.055)}
+.section-live .live-frame-head{background:#f9f7f2;border-bottom:1px solid #e8e3d7;padding:18px 28px;letter-spacing:.12em}
+.section-live .live-list{position:relative;padding:14px 0 12px}
+.section-live .live-list:has(.live-entry)::before{content:"";position:absolute;top:40px;bottom:44px;left:151px;width:1px;background:linear-gradient(to bottom,rgba(185,147,54,.65),#e5e8ed 32%,#e5e8ed)}
+.section-live .live-entry{position:relative;grid-template-columns:96px minmax(0,1fr) 200px;gap:34px;padding:29px 30px;align-items:start;border-bottom:1px solid #eef0f2}
+.section-live .live-entry:last-child{border-bottom:0}
+.section-live .live-entry::before{content:"";position:absolute;left:146px;top:41px;z-index:2;width:11px;height:11px;border-radius:50%;border:3px solid #fff;background:#b99336;box-shadow:0 0 0 1px rgba(185,147,54,.45)}
+.section-live .live-entry-newest{background:linear-gradient(90deg,rgba(185,147,54,.06),transparent 38%)}
+.section-live .live-entry-newest::before{background:#b43f41;box-shadow:0 0 0 3px rgba(180,63,65,.12);border-color:#fff}
+.section-live .live-clock{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.section-live .live-time{font-size:21px;font-weight:800;line-height:1.1;color:#a48126;font-variant-numeric:tabular-nums}
+.section-live .live-date{display:block;margin:0;color:#778394;font-size:11px;letter-spacing:.04em;text-transform:uppercase}
+.section-live .live-newest-label{display:inline-flex;margin-top:10px;font-size:9px;font-weight:800;letter-spacing:.1em;color:#a73435;background:#fff1ef;border-radius:4px;padding:6px 7px;white-space:nowrap}
+.section-live .live-entry h3{font-size:clamp(20px,2.1vw,26px);line-height:1.22;margin-bottom:10px;letter-spacing:-.01em}
+.section-live .live-entry p{font-size:14px;line-height:1.58;color:#626f80;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.section-live .live-photo{aspect-ratio:3/2;width:100%;height:auto;object-fit:cover;border-radius:8px}
+.section-live .live-placeholder{aspect-ratio:3/2}
+.section-live .live-footer{border-top:1px solid #e9ebef;padding:18px 28px}
+@media(max-width:900px){
+ .section-live .live-entry{grid-template-columns:80px minmax(0,1fr) 145px;gap:23px;padding:24px 22px}
+ .section-live .live-list:has(.live-entry)::before{left:111px}
+ .section-live .live-entry::before{left:106px;top:36px}
+}
+@media(max-width:760px){
+ .section-live .live-frame-head{padding:14px 16px;gap:10px;letter-spacing:.07em}
+ .section-live .live-frame-head>span:first-child{font-size:10px}
+ .section-live .live-status{font-size:10px;text-align:right}
+ .section-live .live-list{padding:0}
+ .section-live .live-list:has(.live-entry)::before{left:24px;top:34px;bottom:34px}
+ .section-live .live-entry{grid-template-columns:minmax(0,1fr) 108px;gap:11px 13px;padding:20px 14px 22px 47px}
+ .section-live .live-entry::before{left:19px;top:27px}
+ .section-live .live-clock{grid-column:1/-1;flex-direction:row;align-items:center;gap:9px;flex-wrap:wrap}
+ .section-live .live-time{font-size:16px}
+ .section-live .live-date{font-size:10px}
+ .section-live .live-newest-label{margin:0 0 0 auto;font-size:8px;padding:5px 6px}
+ .section-live .live-entry h3{font-size:18px;line-height:1.25;margin-bottom:7px}
+ .section-live .live-entry p{font-size:12px;line-height:1.5;-webkit-line-clamp:3}
+ .section-live .live-photo,.section-live .live-placeholder{aspect-ratio:4/3;border-radius:6px}
+ .section-live .live-footer{padding:15px 16px;gap:10px}
+}
+@media(max-width:380px){
+ .section-live .live-entry{grid-template-columns:minmax(0,1fr) 86px;gap:9px;padding-left:41px;padding-right:11px}
+ .section-live .live-list:has(.live-entry)::before{left:20px}
+ .section-live .live-entry::before{left:15px}
+ .section-live .live-entry h3{font-size:16px}
+}
+@media(prefers-reduced-motion:reduce){.section-live .live-entry{transition:none}}
+
+/* Señal EN VIVO · pulso discreto, visible también en celulares. */
+.section-live .live-pill-on {
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  flex-shrink:0;padding:10px 15px;border-radius:999px;
+  color:#fff;background:#b92e37;border:1px solid #b92e37;
+  font-size:11px;font-weight:800;letter-spacing:.13em;
+  box-shadow:0 0 0 0 rgba(185,46,55,.26);
+  animation: liveBadgePulse 2.2s ease-out infinite;
+}
+.section-live .live-pill-light {
+  display:block;width:8px;height:8px;border-radius:50%;background:#fff;
+  box-shadow:0 0 0 3px rgba(255,255,255,.2);
+  animation: liveLightBlink 1.2s ease-in-out infinite;
+}
+@keyframes liveLightBlink {0%,100%{opacity:1}50%{opacity:.28}}
+@keyframes liveBadgePulse {
+  0%,100%{box-shadow:0 0 0 0 rgba(185,46,55,.25)}
+  55%{box-shadow:0 0 0 8px rgba(185,46,55,0)}
+}
+@media(max-width:760px){.section-live .section-head{align-items:center}.section-live .live-pill-on{display:inline-flex;padding:8px 11px;font-size:9px;gap:6px}}
+@media(prefers-reduced-motion:reduce){.section-live .live-pill-on,.section-live .live-pill-light{animation:none}}
