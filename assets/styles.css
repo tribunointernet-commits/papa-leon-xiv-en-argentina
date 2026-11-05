@@ -263,3 +263,38 @@
 .papal-tooltip-close:hover,.papal-tooltip-close:focus-visible{background:#ffffff26;outline:2px solid #e1bd69}
 .papal-bar[aria-expanded="true"],.papal-country[aria-expanded="true"]{outline:2px solid #b99336;outline-offset:2px}
 @media(max-width:600px){.papal-tooltip{position:fixed;left:12px;right:12px;bottom:12px;top:auto;width:calc(100vw - 24px);max-height:min(55dvh,430px);box-shadow:0 8px 30px #101c3070}}
+
+/* V8 · Historias de Salta: carrusel editorial vertical 9:16 */
+.salta-stories-section{padding:72px 0 60px;background:linear-gradient(120deg,#14253e,#243e5e)}
+.salta-stories-header{display:flex;align-items:flex-end;justify-content:space-between;gap:26px;margin-bottom:25px}
+.salta-stories-header h2{font-size:clamp(2rem,4vw,3.5rem);color:#fff;margin-bottom:13px}
+.salta-stories-header p:not(.eyebrow){max-width:600px;font-size:15px;color:#d8e0ea;line-height:1.6;margin:0}
+.salta-stories-controls{display:flex;align-items:center;gap:9px;flex-shrink:0}
+.salta-nav{cursor:pointer;display:grid;place-items:center;color:#fff;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.4);border-radius:50%;width:43px;height:43px;font-size:28px;line-height:1}
+.salta-nav:hover:not(:disabled),.salta-nav:focus-visible{background:#b99336;border-color:#b99336;color:#11233a}
+.salta-nav:disabled{opacity:.35;cursor:default}
+.salta-slider{display:flex;gap:16px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:1px;scroll-behavior:smooth;padding:0 1px 14px;scrollbar-width:thin;scrollbar-color:#8797a7 transparent}
+.salta-story{position:relative;display:block;flex:0 0 calc((100% - 48px)/4);min-width:0;aspect-ratio:9/16;max-height:500px;overflow:hidden;border-radius:13px;isolation:isolate;background:#36506d;color:white;text-decoration:none;scroll-snap-align:start;border:1px solid rgba(255,255,255,.17)}
+.salta-story-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.salta-story:hover .salta-story-image,.salta-story:focus-visible .salta-story-image{transform:scale(1.045)}
+.salta-story::after{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(180deg,rgba(5,11,23,.10) 0%,rgba(7,15,27,.14) 30%,rgba(5,11,23,.58) 64%,rgba(5,11,23,.96) 100%)}
+.salta-story-fallback{position:absolute;inset:0;display:grid;place-items:center;font:5rem Georgia,serif;color:rgba(255,255,255,.25);background:linear-gradient(155deg,#3b5571,#162c48)}
+.salta-story-content{position:absolute;z-index:1;left:0;right:0;bottom:0;padding:22px 18px 20px;display:flex;flex-direction:column;gap:10px}
+.salta-story-category{font:700 10px 'DM Sans',Arial,sans-serif;letter-spacing:.17em;color:#eccb78;text-transform:uppercase}
+.salta-story-title{display:block;font:600 clamp(19px,2.05vw,26px)/1.19 'Playfair Display',Georgia,serif;color:#fff;text-wrap:pretty;overflow-wrap:break-word}
+.salta-story-link{font:700 10px 'DM Sans',Arial,sans-serif;letter-spacing:.06em;color:#e8eefa;opacity:.92}
+.salta-stories-footer{display:flex;justify-content:space-between;gap:12px;color:#cbd5e1;font-size:12px;margin-top:8px}
+.salta-slider-status{color:#f1f4f8;padding:20px 0}
+@media(max-width:900px){.salta-story{flex-basis:calc((100% - 32px)/3)}}
+@media(max-width:760px){
+ .salta-stories-section{padding:56px 0 44px}
+ .salta-stories-header{align-items:flex-end;gap:15px}
+ .salta-stories-header h2{font-size:clamp(2rem,8vw,2.7rem)}
+ .salta-stories-header p:not(.eyebrow){font-size:13px}
+ .salta-nav{width:34px;height:34px;font-size:24px}
+ .salta-slider{gap:12px}
+ .salta-story{flex-basis:min(75%,290px);max-height:none}
+ .salta-story-title{font-size:clamp(21px,5.3vw,26px)}
+}
+@media(min-width:761px) and (max-width:1024px){.salta-story{flex-basis:calc((100% - 32px)/3)}}
+@media(prefers-reduced-motion:reduce){.salta-slider{scroll-behavior:auto}.salta-story-image{transition:none}}

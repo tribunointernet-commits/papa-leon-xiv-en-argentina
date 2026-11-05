@@ -1,25 +1,31 @@
-CORRECCIÓN DEL MINUTO A MINUTO · EL TRIBUNO
+ACTUALIZACIÓN: CARRUSEL LA FE SALTEÑA
 
-Causa: el extractor leía únicamente /ttag/papa-leon-xiv-en-argentina,
-pero las nuevas notas se publican bajo /ttag/el-papa-leon-xiv-en-la-argentina.
+Se eligieron cinco noticias únicas. Uno de los seis enlaces enviados estaba repetido.
 
-INSTALACIÓN:
-1. Abrir el repositorio de GitHub > Code > scripts > update_news.py.
-2. Pulsar el lápiz (Edit) y sustituir el contenido con el archivo incluido.
-3. Guardar en main con Commit changes.
-4. En Actions > Actualizar noticias de León XIV > Run workflow.
-5. Verificar que data/latest.json tenga fecha updated_at reciente y cinco items.
-6. Recargar el micrositio (Cmd+Shift+R) y comprobar los titulares.
+Subir a la RAÍZ del repositorio papa-leon-xiv-en-argentina, conservando las carpetas:
+  index.html (reemplazar)
+  assets/styles.css (reemplazar)
+  assets/salta-slider.js (nuevo)
+  data/salta-cards.json (nuevo)
+  scripts/update_salta_cards.py (nuevo)
+  .github/workflows/actualizar-noticias.yml (reemplazar)
 
-Este parche NO reemplaza index.html, styles.css, agenda.js, visitas.js,
-biografia.js, app.js ni el workflow de GitHub.
+OJO: si no aparece .github en el Mac, mostrar archivos ocultos con Cmd+Shift+.
 
-El script consulta ambas etiquetas, elimina duplicados por URL, lee las
-fechas reales de las notas, ordena de más reciente a más antigua y publica
-hasta cinco noticias. Si falla la obtención completa, conserva el JSON anterior.
+NO BORRAR NI REEMPLAZAR:
+  assets/app.js, assets/agenda.js, assets/biografia.js, assets/visitas.js
+  data/latest.json, scripts/update_news.py, requirements.txt
 
-GitHub Actions puede demorar; la página consulta el JSON cada 60 segundos,
-pero la generación programada es aproximadamente cada 5 minutos.
+Luego GitHub > Actions > Actualizar noticias de León XIV > Run workflow.
+La tarea actualiza la lista automática que YA FUNCIONA y ahora también recupera las
+fotografías principales de las cinco historias seleccionadas, mediante og:image.
+Al principio, hasta que se ejecute Actions, se verá un fondo tipográfico temporal
+si no existe todavía una URL para la foto. Si la noticia no ofrece imagen accesible,
+la tarjeta conserva ese fallback en lugar de mostrar una foto incorrecta.
 
-OPCIONAL: más adelante cambiar los enlaces «Todas las noticias» y «Ver todas
-las noticias» del index.html para apuntar a la etiqueta nueva.
+Cada tarjeta tiene proporción 9:16, título superpuesto, degradado inferior,
+scroll horizontal con deslizamiento táctil, controles en desktop y navegación por teclado.
+El carrusel no tiene autoplay y es independiente del minuto a minuto.
+
+NOTA: El index.html se preparó sobre la versión consolidada con agenda por ciudades,
+mapas, biografía y gráfico de viajes papales. No se modificaron sus scripts.
