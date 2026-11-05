@@ -1,5 +1,41 @@
 {
-  "updated_at": null,
+  "updated_at": "2026-11-05T04:34:38Z",
   "source": "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina",
-  "items": []
+  "items": [
+    {
+      "url": "https://www.eltribuno.com/salta/2026-11-4-20-6-0-la-imagen-peregrina-lleva-los-rostros-los-dolores-y-las-esperanzas-de-salta-al-corazon-del-papa",
+      "title": "Los rostros, dolores y esperanzas de Salta viajarán con el Señor del Milagro hasta el papa León XIV",
+      "summary": "El padre Martín Farfán contó cómo se prepara la participación de las comunidades salteñas en las actividades por la visita de León XIV. La imagen peregrina del Señor del Milagro y cartas de personas alojadas en Villa Las Rosas acompañarán el encuentro con el Papa.",
+      "image": "https://uscdn.eltribuno.com/112026/1793836185035.jpg",
+      "published_at": "2026-11-04T23:47:00Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/nacionales/2026-11-3-19-15-0-la-iglesia-catolica-advirtio-sobre-las-necesidades-sociales-de-argentina-a-dias-de-la-llegada-del-papa-leon-xiv",
+      "title": "La Iglesia católica advirtió sobre las necesidades sociales de Argentina a días de la llegada del Papa León XIV",
+      "summary": "El obispo de La Rioja y presidente de la Comisión Episcopal de Pastoral Social, monseñor Dante Braida, señaló que existen sectores muy postergados que necesitan mayores oportunidades.",
+      "image": "https://uscdn.eltribuno.com/112026/1793743997027.jpg",
+      "published_at": "2026-11-03T23:03:23Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/nacionales/2026-11-3-16-16-0-visita-del-papa-leon-xiv-a-la-argentina-el-gobierno-nacional-difudio-el-cronograma-oficial",
+      "title": "Papa León XIV en Argentina: una por una, todas las actividades que realizará durante su visita",
+      "summary": "El Gobierno nacional dio a concer el cronograma oficial. Estará en la Ciudad Autónoma de Buenos Aires, Córdoba y Luján, Provincia de Buenos Aires.",
+      "image": "https://uscdn.eltribuno.com/112026/1793735001678.jpg",
+      "published_at": "2026-11-03T21:24:00Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/espectaculos/2026-10-27-17-42-0-video-agustin-day-el-salteno-que-le-cantara-al-papa-leon-xiv-es-un-sueno-increible-y-espero-estar-a-la-altura",
+      "title": "VIDEO. Agustín Day, el salteño que le cantará al papa León XIV: &quot;Es un sueño increíble y espero estar a la altura&quot;",
+      "summary": "El artista interpretará “Bienvenido Papa León”, una canción del padre Javier Rojas, en un encuentro con representantes del mundo del trabajo en la Universidad Católica.",
+      "image": "https://uscdn.eltribuno.com/102026/1793132779495.jpg",
+      "published_at": "2026-11-01T20:38:40Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/espectaculos/2026-10-29-16-44-0-de-francisco-a-leon-xiv-la-historia-del-musico-argentino-que-suena-con-cantarle-al-papa",
+      "title": "De Francisco a León XIV: la historia del músico argentino que sueña con cantarle al Papa",
+      "summary": "Con más de 40 años de trayectoria, Eduardo Pantuso compone canciones inspiradas en la fe, la religión y personalidades de la historia nacional.",
+      "image": "https://uscdn.eltribuno.com/102026/1793301948591.jpg",
+      "published_at": "2026-10-31T21:26:00Z"
+    }
+  ]
 }
