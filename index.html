@@ -11,9 +11,10 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/papa-leon-xiv-retrato.webp" type="image/webp">
   <link rel="preload" as="image" href="assets/leon-xiv-plaza-san-pedro.jpg">
-  <link rel="stylesheet" href="assets/styles.css?v=5">
+  <link rel="stylesheet" href="assets/styles.css?v=6">
   <script src="assets/app.js?v=2" defer></script>
   <script src="assets/biografia.js?v=1" defer></script>
+  <script src="assets/visitas.js?v=1" defer></script>
 </head>
 <body>
   <a class="skip" href="#contenido">Ir al contenido</a>
@@ -257,7 +258,46 @@
         </div>
       </div>
     </section>
-    <section class="section gallery-section reveal" id="multimedia"><div class="shell"><div class="section-head"><div><p class="eyebrow">COBERTURA MULTIMEDIA</p><h2>La visita en imágenes</h2><p class="section-sub">Fotos, videos y testimonios de los momentos más destacados.</p></div></div><div class="gallery-placeholders"><div><span>FOTOGRAFÍAS</span><strong>La visita del Papa</strong></div><div><span>VIDEOS</span><strong>Las voces de la gente</strong></div><div><span>ARCHIVO</span><strong>El vínculo con Salta</strong></div></div><p class="gallery-note">Espacios preparados para incorporar fotografías y videos autorizados.</p></div></section>
+    <section class="section papal-data-section reveal" id="visitas-latinoamerica" aria-labelledby="visitas-title">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">HISTORIA DE LOS VIAJES PAPALES</p>
+            <h2 id="visitas-title">Los papas en Latinoamérica</h2>
+            <p class="section-sub">Explorá las visitas y los países más recorridos. Pasá el mouse o tocá cada barra para ver los detalles.</p>
+          </div>
+        </div>
+        <div class="papal-data-grid">
+          <div class="papal-chart-card">
+            <div class="papal-chart-heading"><h3>Viajes por pontífice</h3><span>1968–2019 · referencia histórica</span></div>
+            <div class="papal-chart-rows" id="papal-chart" role="group" aria-label="Comparación de viajes de papas a Latinoamérica">
+              <button class="papal-bar" type="button" data-tooltip="Pablo VI: 1 viaje. En 1968 aterrizó en Bogotá, en la primera visita de un Papa a Latinoamérica." aria-label="Pablo VI, un viaje. Ver más detalles"><span class="papal-label">Pablo VI</span><span class="papal-track"><span class="papal-fill papa-pablo" style="--pct:5.56%"></span></span><strong>1</strong></button>
+              <button class="papal-bar" type="button" data-tooltip="Juan Pablo II: 18 viajes. Es el pontífice con más viajes a Latinoamérica según este gráfico histórico." aria-label="Juan Pablo II, dieciocho viajes. Ver más detalles"><span class="papal-label">Juan Pablo II</span><span class="papal-track"><span class="papal-fill papa-juan" style="--pct:100%"></span></span><strong>18</strong></button>
+              <button class="papal-bar" type="button" data-tooltip="Benedicto XVI: 2 viajes a Latinoamérica, según el gráfico de referencia." aria-label="Benedicto dieciséis, dos viajes. Ver más detalles"><span class="papal-label">Benedicto XVI</span><span class="papal-track"><span class="papal-fill papa-benedicto" style="--pct:11.11%"></span></span><strong>2</strong></button>
+              <button class="papal-bar" type="button" data-tooltip="Francisco: 7 viajes a Latinoamérica, según el gráfico de referencia." aria-label="Francisco, siete viajes. Ver más detalles"><span class="papal-label">Francisco</span><span class="papal-track"><span class="papal-fill papa-francisco" style="--pct:38.89%"></span></span><strong>7</strong></button>
+            </div>
+            <div class="papal-chart-note"><span class="papal-highlight-dot" aria-hidden="true"></span> <strong>León XIV</strong> · La visita de noviembre de 2026 marcaría un nuevo capítulo de esta historia.</div>
+          </div>
+          <div class="papal-chart-card">
+            <div class="papal-chart-heading"><h3>Países más visitados</h3><span>Visitas indicadas en la infografía</span></div>
+            <div class="papal-country-grid" role="group" aria-label="Países latinoamericanos con más visitas papales">
+              <button type="button" class="papal-country" data-tooltip="México: 7 visitas papales, según la infografía de referencia."><span>México</span><strong>7</strong></button>
+              <button type="button" class="papal-country" data-tooltip="Brasil: 6 visitas papales, según la infografía de referencia."><span>Brasil</span><strong>6</strong></button>
+              <button type="button" class="papal-country" data-tooltip="Colombia: 3 visitas papales, según la infografía de referencia."><span>Colombia</span><strong>3</strong></button>
+              <button type="button" class="papal-country" data-tooltip="Cuba: 3 visitas papales, según la infografía de referencia."><span>Cuba</span><strong>3</strong></button>
+              <button type="button" class="papal-country" data-tooltip="Guatemala: 3 visitas papales, según la infografía de referencia."><span>Guatemala</span><strong>3</strong></button>
+              <button type="button" class="papal-country" data-tooltip="Perú: 3 visitas papales, según la infografía de referencia."><span>Perú</span><strong>3</strong></button>
+              <button type="button" class="papal-country" data-tooltip="República Dominicana: 3 visitas papales, según la infografía de referencia."><span>Rep. Dominicana</span><strong>3</strong></button>
+              <button type="button" class="papal-country papal-country-arg" data-tooltip="Argentina: 2 visitas en el gráfico histórico de referencia; la visita de León XIV se presenta como un acontecimiento futuro."><span>Argentina</span><strong>2</strong></button>
+              <button type="button" class="papal-country" data-tooltip="Bolivia: 2 visitas papales, según la infografía de referencia."><span>Bolivia</span><strong>2</strong></button>
+              <button type="button" class="papal-country" data-tooltip="Chile: 2 visitas papales, según la infografía de referencia."><span>Chile</span><strong>2</strong></button>
+            </div>
+          </div>
+        </div>
+        <p class="papal-data-source">Fuente: infografía de EFE aportada como referencia, con datos atribuidos al Vaticano. Cifras históricas orientativas: revisar y actualizar antes de la publicación definitiva. No se contabiliza la visita prevista de León XIV.</p>
+        <div id="papal-tooltip" class="papal-tooltip" role="tooltip" hidden></div>
+      </div>
+    </section>
     <section class="section news-end reveal"><div class="shell end-inner"><div><p class="eyebrow">TODAS LAS NOVEDADES</p><h2>Seguí la cobertura completa</h2><p>Todas las noticias de El Tribuno sobre la visita del papa León XIV a la Argentina, en un solo lugar.</p></div><a class="cta-primary" href="https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina" target="_blank" rel="noopener">Ver más noticias ↗</a></div></section>
   </main>
   <footer class="site-footer"><div class="shell"><strong>El Tribuno</strong><span>Especial León XIV en Argentina · Salta, Argentina</span><a href="https://www.eltribuno.com/" rel="noopener">eltribuno.com</a></div></footer>
