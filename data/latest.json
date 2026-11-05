@@ -1,7 +1,32 @@
 {
-  "updated_at": "2026-11-05T12:41:40Z",
-  "source": "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina",
+  "updated_at": "2026-11-05T15:46:34Z",
+  "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
+  "sources": [
+    "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
+    "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina"
+  ],
   "items": [
+    {
+      "url": "https://www.eltribuno.com/salta/2026-11-5-11-5-0-salta-se-prepara-para-recibir-al-papa-leon-xiv-con-un-gran-encuentro-en-plaza-espana",
+      "title": "Salta se prepara para recibir al papa León XIV con un gran encuentro en plaza España",
+      "summary": "La llegada del papa León XIV a la Argentina también se vivirá de una manera especial en Salta. El lunes 9 de noviembre, plaza España reunirá a familias y fieles en una jornada que combinará música, expresiones culturales y momentos de fe. Habrá pantallas gigantes para seguir en vivo la misa presidida por el Pontífice, además de distintas actividades que comenzarán desde temprano. Conocé los horarios, cómo será el encuentro y qué recomiendan ll…",
+      "image": "https://uscdn.eltribuno.com/112026/1793888022958.jpg",
+      "published_at": "2026-11-05T14:20:00Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/nacionales/2026-11-5-10-12-0-leon-xiv-en-argentina-quienes-acompanaran-al-papa-en-el-palacio-libertad",
+      "title": "León XIV en Argentina: quiénes acompañarán al Papa en el Palacio Libertad",
+      "summary": "El Gobierno realizó una amplia convocatoria para mostrar un mensaje de unida",
+      "image": "https://uscdn.eltribuno.com/112026/1793885282038.jpg",
+      "published_at": "2026-11-05T13:30:00Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/salta/2026-11-5-0-0-0-leon-xiv-pidio-oraciones-por-su-gira-en-america",
+      "title": "León XIV pidió oraciones por su gira en América",
+      "summary": "Dijo que es una bendición la misión en los tres países.",
+      "image": "https://uscdn.eltribuno.com/112026/1793844851127.jpg",
+      "published_at": "2026-11-05T04:20:30Z"
+    },
     {
       "url": "https://www.eltribuno.com/salta/2026-11-4-20-6-0-la-imagen-peregrina-lleva-los-rostros-los-dolores-y-las-esperanzas-de-salta-al-corazon-del-papa",
       "title": "Los rostros, dolores y esperanzas de Salta viajarán con el Señor del Milagro hasta el papa León XIV",
@@ -10,32 +35,11 @@
       "published_at": "2026-11-04T23:47:00Z"
     },
     {
-      "url": "https://www.eltribuno.com/nacionales/2026-11-3-19-15-0-la-iglesia-catolica-advirtio-sobre-las-necesidades-sociales-de-argentina-a-dias-de-la-llegada-del-papa-leon-xiv",
-      "title": "La Iglesia católica advirtió sobre las necesidades sociales de Argentina a días de la llegada del Papa León XIV",
-      "summary": "El obispo de La Rioja y presidente de la Comisión Episcopal de Pastoral Social, monseñor Dante Braida, señaló que existen sectores muy postergados que necesitan mayores oportunidades.",
-      "image": "https://uscdn.eltribuno.com/112026/1793743997027.jpg",
-      "published_at": "2026-11-03T23:03:23Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/nacionales/2026-11-3-16-16-0-visita-del-papa-leon-xiv-a-la-argentina-el-gobierno-nacional-difudio-el-cronograma-oficial",
-      "title": "Papa León XIV en Argentina: una por una, todas las actividades que realizará durante su visita",
-      "summary": "El Gobierno nacional dio a concer el cronograma oficial. Estará en la Ciudad Autónoma de Buenos Aires, Córdoba y Luján, Provincia de Buenos Aires.",
-      "image": "https://uscdn.eltribuno.com/112026/1793735001678.jpg",
-      "published_at": "2026-11-03T21:24:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/espectaculos/2026-10-27-17-42-0-video-agustin-day-el-salteno-que-le-cantara-al-papa-leon-xiv-es-un-sueno-increible-y-espero-estar-a-la-altura",
-      "title": "VIDEO. Agustín Day, el salteño que le cantará al papa León XIV: &quot;Es un sueño increíble y espero estar a la altura&quot;",
-      "summary": "El artista interpretará “Bienvenido Papa León”, una canción del padre Javier Rojas, en un encuentro con representantes del mundo del trabajo en la Universidad Católica.",
-      "image": "https://uscdn.eltribuno.com/102026/1793132779495.jpg",
-      "published_at": "2026-11-01T20:38:40Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/espectaculos/2026-10-29-16-44-0-de-francisco-a-leon-xiv-la-historia-del-musico-argentino-que-suena-con-cantarle-al-papa",
-      "title": "De Francisco a León XIV: la historia del músico argentino que sueña con cantarle al Papa",
-      "summary": "Con más de 40 años de trayectoria, Eduardo Pantuso compone canciones inspiradas en la fe, la religión y personalidades de la historia nacional.",
-      "image": "https://uscdn.eltribuno.com/102026/1793301948591.jpg",
-      "published_at": "2026-10-31T21:26:00Z"
+      "url": "https://www.eltribuno.com/salta/2026-11-4-18-42-0-la-visita-del-papa-leon-xiv-a-la-argentina-trae-gratos-recuerdos-el-dia-que-salta-recibio-a-juan-pablo-ii",
+      "title": "La visita del papa León XIV a la Argentina trae gratos recuerdos: el día que Salta recibió a Juan Pablo II",
+      "summary": "La próxima llegada del papa León XIV a la Argentina trae nuevamente a la memoria aquella histórica visita de Juan Pablo II a Salta, en abril de 1987. El entonces Sumo Pontífice reunió a una multitud en el Jockey Club y rezó ante las imágenes del Señor y la Virgen del Milagro.",
+      "image": "https://uscdn.eltribuno.com/112026/1793830954917.jpg",
+      "published_at": "2026-11-04T22:19:00Z"
     }
   ]
 }
