@@ -15,7 +15,11 @@ from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
 
-SOURCE = 'https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina'
+SOURCES = [
+    'https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina',
+    'https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina',
+]
+SOURCE = SOURCES[0]
 BASE = 'https://www.eltribuno.com'
 OUT = Path(__file__).resolve().parents[1] / 'data' / 'latest.json'
 TZ = ZoneInfo('America/Argentina/Buenos_Aires')
@@ -122,10 +126,23 @@ def article_info(url:str,title_from_tag:str)->dict|None:
 
 def main():
     logging.basicConfig(level=logging.INFO,format='%(levelname)s %(message)s')
-    page=get_soup(SOURCE)
-    urls=page_links(page)
-    LOG.info('Encontradas %d notas enlazadas desde la etiqueta',len(urls))
-    if not urls:raise RuntimeError('La etiqueta no devolvió enlaces de noticias: se conservan los datos anteriores.')
+    urls=[]
+    seen=set()
+    successful_sources=0
+    for tag_url in SOURCES:
+        try:
+            candidates=page_links(get_soup(tag_url))
+            successful_sources+=1
+            LOG.info('Etiqueta %s: %d enlaces',tag_url,len(candidates))
+            for url,title in candidates:
+                key=url.rstrip('/')
+                if key not in seen:
+                    seen.add(key)
+                    urls.append((url,title))
+        except requests.RequestException as exc:
+            LOG.warning('No se pudo acceder a la etiqueta %s: %s',tag_url,exc)
+    LOG.info('Noticias candidatas únicas: %d (etiquetas accesibles: %d)',len(urls),successful_sources)
+    if not urls:raise RuntimeError('Ninguna etiqueta devolvió enlaces de noticias: se conservan los datos anteriores.')
     items=[]
     # Review extra candidates to ensure five parseable articles.
     for url,title in urls[:20]:
@@ -137,7 +154,7 @@ def main():
     items.sort(key=lambda x:x['published_at'],reverse=True)
     items=items[:5]
     if len(items)==0:raise RuntimeError('Sin noticias con hora verificada: se conservan los datos anteriores.')
-    payload={'updated_at':dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z'),'source':SOURCE,'items':items}
+    payload={'updated_at':dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z'),'source':SOURCE,'sources':SOURCES,'items':items}
     OUT.parent.mkdir(parents=True,exist_ok=True)
     tmp=OUT.with_suffix('.tmp');tmp.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');tmp.replace(OUT)
     LOG.info('Escritas %s noticias en %s',len(items),OUT)
