@@ -1,0 +1,11 @@
+ACTUALIZACIÓN AGENDA POR CIUDADES - EL TRIBUNO
+
+Subir estos archivos conservando las rutas:
+index.html
+assets/styles.css
+assets/agenda.js
+
+No reemplazar assets/app.js, data/latest.json, scripts, .github ni las imágenes.
+Esta versión conserva el indicador EN VIVO animado y el resto del diseño de la actualización anterior.
+La agenda muestra 22 actos: Buenos Aires 17, Córdoba 4 y Luján 1.
+Los horarios corresponden a Argentina UTC-3.
