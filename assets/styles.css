@@ -130,79 +130,59 @@
 @media(max-width:760px){.section-live .section-head{align-items:center}.section-live .live-pill-on{display:inline-flex;padding:8px 11px;font-size:9px;gap:6px}}
 @media(prefers-reduced-motion:reduce){.section-live .live-pill-on,.section-live .live-pill-light{animation:none}}
 
-/* Agenda de la visita: filtros por ciudad y línea de tiempo */
-.section-agenda{background:#f8f5ee}
-.agenda-filter{display:flex;gap:10px;flex-wrap:wrap;margin:27px 0 23px}
-.agenda-filter-btn{font:700 13px 'DM Sans',Arial,sans-serif;padding:12px 17px;border:1px solid #dcd6c7;border-radius:100px;background:#fff;color:#24344a;cursor:pointer;display:inline-flex;gap:12px;align-items:center;transition:background .18s ease,color .18s ease,border-color .18s ease}
-.agenda-filter-btn span{display:inline-grid;place-items:center;min-width:25px;padding:3px 5px;border-radius:100px;background:#f0ede6;font-size:11px;color:#566170}
-.agenda-filter-btn.is-active{background:#172d49;color:#fff;border-color:#172d49}
-.agenda-filter-btn.is-active span{background:#b99336;color:#142238}
-.agenda-filter-btn:focus-visible{outline:3px solid #b99336;outline-offset:3px}
-.agenda-panels{border-radius:14px;background:#fff;border:1px solid #e5dfd5;padding:14px 30px 20px;box-shadow:0 15px 35px rgba(21,35,55,.04)}
-.agenda-city-panel[hidden]{display:none!important}
-.agenda-day-group{padding-top:22px}
-.agenda-day-group+.agenda-day-group{margin-top:12px;border-top:1px solid #ece9e2}
-.agenda-day-group h3{font:600 clamp(19px,2vw,24px) 'Playfair Display',Georgia,serif;color:#172d49;margin:0 0 18px}
-.agenda-day-group h3 span{font:500 12px 'DM Sans',sans-serif;color:#8a8d91;margin-left:8px}
-.agenda-timeline{list-style:none;margin:0;padding:0 0 0 4px}
-.agenda-event{display:grid;grid-template-columns:75px 1fr;column-gap:29px;position:relative;padding:0 0 23px}
-.agenda-event:not(:last-child)::before{content:"";position:absolute;left:90px;top:13px;bottom:-7px;width:1px;background:#e8dfcc}
-.agenda-event::after{content:"";position:absolute;left:86px;top:7px;width:9px;height:9px;border:2px solid #fff;border-radius:50%;background:#b99336;box-shadow:0 0 0 1px #dacba9}
-.agenda-event time{font:800 18px 'DM Sans',Arial,sans-serif;color:#ab842c;font-variant-numeric:tabular-nums}
-.agenda-event time span{font-size:10px;font-weight:500}
-.agenda-event-content{padding-left:11px}
-.agenda-event h4{font:600 17px/1.33 'DM Sans',Arial,sans-serif;margin:0 0 6px;color:#182b43}
-.agenda-event p{margin:0 0 5px;font:400 13px/1.5 'DM Sans',Arial,sans-serif;color:#657181}
-.agenda-event p.agenda-note{color:#8d661c;font-weight:700;font-size:12px}
-.agenda-event-link{font:700 12px 'DM Sans',Arial,sans-serif;color:#886719;text-decoration:underline;text-underline-offset:3px}
-.agenda-footnote{font-size:12px;color:#677382;margin:16px 0 0;line-height:1.6}
-@media(max-width:600px){.agenda-filter{gap:7px;margin:18px 0}.agenda-filter-btn{font-size:12px;padding:9px 11px;gap:7px}.agenda-panels{padding:9px 14px 12px}.agenda-event{grid-template-columns:56px 1fr;gap:18px}.agenda-event:not(:last-child)::before{left:65px}.agenda-event::after{left:61px}.agenda-event time{font-size:14px}.agenda-event-content{padding-left:2px}.agenda-event h4{font-size:14px}.agenda-event p{font-size:12px}.agenda-day-group h3{font-size:19px}}
-@media(prefers-reduced-motion:reduce){.agenda-filter-btn{transition:none}}
-
-/* Oculta completamente el panel hasta que el lector elija una ciudad. */
-.agenda-panels[hidden]{display:none!important}
-
-/* Mapas de sedes: accesos discretos dentro de cada evento. */
-.agenda-map-link{display:inline-flex;align-items:center;gap:6px;margin:5px 0 9px;padding:7px 11px;border:1px solid #d6e0ea;border-radius:7px;background:#f7fafc;color:#22466c;font:700 12px/1.2 'DM Sans',Arial,sans-serif;text-decoration:none;transition:background-color .2s ease,border-color .2s ease}
-.agenda-map-link:hover{background:#edf3f9;border-color:#9bb5cf}
-.agenda-map-link:focus-visible{outline:3px solid #b99336;outline-offset:2px}
-.agenda-map-link svg{flex:none}
-@media(prefers-reduced-motion:reduce){.agenda-map-link{transition:none}}
-
-/* BIOGRAFÍA INTERACTIVA · Línea de tiempo y foco editorial en Salta */
-.section-bio{background:#fff;color:#172d49}
-.bio-heading{max-width:760px;margin-bottom:30px}
-.bio-heading h2{margin:0 0 12px;font-family:'Playfair Display',Georgia,serif}
-.bio-intro{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:center;padding:28px 0 32px;border-top:1px solid #e7e9ec}
-.bio-intro h3{margin:7px 0 12px;font:600 clamp(34px,4.5vw,54px)/1.05 'Playfair Display',Georgia,serif}
-.bio-intro p{color:#526173;line-height:1.75;max-width:600px}
-.bio-small-title{letter-spacing:.17em;font-size:11px;font-weight:800;color:#a47b28}
-.bio-intro blockquote{margin:0;padding:26px 28px;border-left:3px solid #b99336;background:#f8f5ee;font:italic 600 clamp(21px,2.5vw,29px)/1.4 'Playfair Display',Georgia,serif;color:#172d49}
-.bio-intro blockquote span{display:block;margin-top:15px;font:500 11px/1.5 'DM Sans',Arial,sans-serif;letter-spacing:.04em;color:#596777}
-.bio-local-callout{display:grid;grid-template-columns:70px 1fr;gap:12px;margin:20px 0 46px;padding:30px 32px;background:#172d49;color:white;border-radius:14px;border-left:5px solid #d0ab50}
-.bio-local-callout .eyebrow{color:#e2bc60;margin:0 0 8px}
-.bio-local-callout h3{font:600 clamp(25px,3vw,37px)/1.2 'Playfair Display',Georgia,serif;margin:0 0 10px;color:white}
-.bio-local-callout p:not(.eyebrow){max-width:780px;line-height:1.75;color:#edf0f5;margin:0 0 16px}
-.bio-local-link{display:inline-block;color:#f2d28f;font-size:13px;font-weight:700;text-underline-offset:4px}
-.bio-local-mark{font-size:40px;color:#d0ab50}
-.bio-timeline-heading h3{font:600 clamp(27px,3.5vw,40px)/1.15 'Playfair Display',Georgia,serif;margin:0 0 8px}
-.bio-timeline-heading p{margin:0 0 26px;color:#627183;font-size:14px}
-.bio-timeline{list-style:none;padding:0;margin:0;max-width:880px}
-.bio-item{padding:0 0 0 32px;position:relative;border-left:2px solid #e7dfcc;margin-left:18px}
-.bio-item:before{content:'';position:absolute;left:-8px;top:23px;width:14px;height:14px;border:2px solid #fff;background:#b99336;border-radius:50%;box-shadow:0 0 0 2px #e7dfcc}
-.bio-detail{border-bottom:1px solid #e7ebef}
-.bio-detail summary{cursor:pointer;list-style:none;display:flex;gap:22px;align-items:center;padding:15px 10px 15px 0;min-height:65px}
-.bio-detail summary::-webkit-details-marker{display:none}
-.bio-detail summary:focus-visible{outline:3px solid #b99336;outline-offset:3px}
-.bio-year{font:800 19px 'DM Sans',Arial,sans-serif;color:#a57c2c;min-width:54px;font-variant-numeric:tabular-nums}
-.bio-entry-title{flex:1;color:#172d49;font:700 clamp(14px,1.6vw,17px)/1.35 'DM Sans',Arial,sans-serif}
-.bio-toggle{font-size:26px;line-height:1;color:#8b96a4;font-weight:300;transition:transform .2s ease}
-.bio-detail[open] .bio-toggle{transform:rotate(45deg)}
-.bio-body{padding:0 34px 20px 76px}
-.bio-body p{line-height:1.75;color:#526173;font-size:14px;margin:0}
-.bio-item-salta .bio-detail{background:#fbf6e9;margin-left:-13px;padding-left:13px;border-radius:9px;border-bottom:1px solid #e8d6ad}
-.bio-item-salta:before{background:#172d49;box-shadow:0 0 0 3px #dec58c}
-.bio-local-chip{display:inline-block;vertical-align:middle;margin-left:7px;padding:3px 7px;border-radius:4px;background:#c5a04d;color:#15243b;font:800 10px 'DM Sans',Arial,sans-serif;letter-spacing:.08em}
-.bio-source-note{margin:22px 0 0;font-size:12px;color:#738091}
-@media(max-width:760px){.bio-intro{grid-template-columns:1fr;gap:16px;padding-top:20px}.bio-intro blockquote{padding:20px}.bio-local-callout{grid-template-columns:1fr;padding:22px 20px;margin:15px 0 35px}.bio-local-mark{display:none}.bio-item{padding-left:21px;margin-left:9px}.bio-detail summary{gap:9px}.bio-year{font-size:16px;min-width:43px}.bio-body{padding:0 17px 18px 52px}.bio-local-chip{font-size:9px}}
-@media(prefers-reduced-motion:reduce){.bio-toggle{transition:none}}
+/* V5 · Biografía interactiva de León XIV */
+.bio-section{background:#fbfaf7}
+.bio-hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr);gap:34px;align-items:stretch;margin-bottom:34px}
+.bio-hero-media{position:relative;min-height:360px;border-radius:18px;overflow:hidden;background:#d8dde4}
+.bio-hero-media img{width:100%;height:100%;object-fit:cover;object-position:center}
+.bio-hero-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,21,34,.12) 0%,rgba(14,21,34,.22) 100%)}
+.bio-hero-copy{padding:26px 0 18px}
+.bio-hero-copy h2{font-size:clamp(2.2rem,4vw,3.8rem);margin-bottom:14px}
+.bio-quote{font:600 1.2rem 'Playfair Display',serif;color:var(--navy);margin-bottom:14px}
+.bio-lede{color:#4e5c6f;line-height:1.75;max-width:620px}
+.bio-highlight{margin-top:20px;background:linear-gradient(135deg,#fff, #f8f2e4);border:1px solid #eadfc5;border-left:4px solid var(--gold);border-radius:12px;padding:16px 18px}
+.bio-highlight strong{display:block;font-size:13px;letter-spacing:.11em;color:var(--gold);text-transform:uppercase;margin-bottom:8px}
+.bio-highlight p{margin:0;color:#445264;line-height:1.65}
+.bio-timeline-head{margin-bottom:18px}
+.bio-timeline-head h3{font-size:clamp(1.9rem,3.2vw,2.7rem);margin:0 0 10px}
+.bio-timeline{display:grid;gap:14px}
+.bio-item{background:#fff;border:1px solid #e8ebf0;border-radius:14px;overflow:hidden;box-shadow:0 6px 18px rgba(16,28,48,.04)}
+.bio-item.is-open{border-color:#e5d9bb;box-shadow:0 10px 28px rgba(16,28,48,.08)}
+.bio-item-salta{border-left:4px solid var(--gold)}
+.bio-trigger{width:100%;border:0;background:transparent;display:grid;grid-template-columns:104px 1fr 34px;align-items:center;gap:16px;text-align:left;padding:20px 22px;cursor:pointer;color:var(--ink)}
+.bio-trigger:hover{background:#fcfbf7}
+.bio-trigger:focus-visible{outline:3px solid #c9a64d;outline-offset:-3px}
+.bio-year{font:700 1.95rem 'Playfair Display',serif;color:var(--gold);line-height:1}
+.bio-summary{font-weight:700;font-size:1.03rem;line-height:1.35}
+.bio-plus{width:32px;height:32px;display:grid;place-items:center;border-radius:50%;background:#f4efe3;color:var(--gold);font-size:1.4rem;line-height:1;transition:transform .2s ease}
+.bio-item.is-open .bio-plus{transform:rotate(45deg)}
+.bio-panel{padding:0 22px 22px 22px}
+.bio-panel-grid{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:24px;align-items:start;padding-top:2px}
+.bio-panel-text p{margin:0 0 12px;color:#546274;line-height:1.76}
+.bio-panel-text p:last-child{margin-bottom:0}
+.bio-figure{margin:0;background:#faf7f0;border:1px solid #eee3ca;border-radius:12px;overflow:hidden}
+.bio-figure img{width:100%;aspect-ratio:4/4.4;object-fit:cover;background:#e5e7eb}
+.bio-figure figcaption{padding:10px 12px;font-size:12px;line-height:1.45;color:#687587}
+.bio-salta-callout{align-self:start;background:linear-gradient(135deg,#172d49,#233b5b);color:#fff;border-radius:12px;padding:18px 18px 20px;box-shadow:0 14px 26px rgba(23,45,73,.12)}
+.bio-salta-callout span{display:block;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#d9b867;margin-bottom:8px;font-weight:700}
+.bio-salta-callout strong{display:block;font:600 1.25rem 'Playfair Display',serif;line-height:1.35}
+@media(max-width:900px){
+  .bio-hero{grid-template-columns:1fr;gap:20px}
+  .bio-hero-media{min-height:290px}
+  .bio-panel-grid{grid-template-columns:minmax(0,1fr) 230px}
+}
+@media(max-width:760px){
+  .bio-section{padding-top:64px;padding-bottom:64px}
+  .bio-hero{margin-bottom:24px}
+  .bio-hero-media{min-height:220px;border-radius:14px}
+  .bio-hero-copy{padding:0}
+  .bio-quote{font-size:1.05rem;line-height:1.45}
+  .bio-trigger{grid-template-columns:74px 1fr 28px;gap:12px;padding:16px 16px}
+  .bio-year{font-size:1.6rem}
+  .bio-summary{font-size:.98rem}
+  .bio-plus{width:28px;height:28px;font-size:1.2rem}
+  .bio-panel{padding:0 16px 18px}
+  .bio-panel-grid{grid-template-columns:1fr;gap:16px}
+  .bio-figure img{aspect-ratio:16/11}
+  .bio-salta-callout strong{font-size:1.08rem}
+}
