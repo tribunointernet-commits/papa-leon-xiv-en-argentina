@@ -1,7 +1,8 @@
-ACTUALIZACIÓN: mapas de cuatro sedes en la agenda desplegable.
+ACTUALIZACIÓN BIOGRAFÍA LEÓN XIV - EL TRIBUNO
 
-En GitHub reemplazá index.html y assets/styles.css. No necesitás cambiar assets/agenda.js (se incluye por comodidad).
+Reemplazá SOLO index.html y assets/styles.css en el repositorio. Conservá assets/app.js, assets/agenda.js, data, scripts y .github.
 
-Se agrega «Ver mapa» en: Monumento de los Españoles (dos actos), Predio de FAdeA, Catedral de Córdoba y Plaza de la Basílica de Luján. Todos abren Google Maps en una pestaña nueva.
+Se incorpora línea de tiempo desplegable con el año 2004 destacado y abierto inicialmente, y una tarjeta dedicada a la visita a la Prelatura de Cafayate (Salta).
+La agenda con mapas y minuto a minuto siguen conectados a los mismos archivos.
 
-No cambia el minuto a minuto ni GitHub Actions.
+Las fechas y los datos de la biografía proceden del texto suministrado por el usuario.

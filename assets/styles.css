@@ -168,3 +168,41 @@
 .agenda-map-link:focus-visible{outline:3px solid #b99336;outline-offset:2px}
 .agenda-map-link svg{flex:none}
 @media(prefers-reduced-motion:reduce){.agenda-map-link{transition:none}}
+
+/* BIOGRAFÍA INTERACTIVA · Línea de tiempo y foco editorial en Salta */
+.section-bio{background:#fff;color:#172d49}
+.bio-heading{max-width:760px;margin-bottom:30px}
+.bio-heading h2{margin:0 0 12px;font-family:'Playfair Display',Georgia,serif}
+.bio-intro{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:center;padding:28px 0 32px;border-top:1px solid #e7e9ec}
+.bio-intro h3{margin:7px 0 12px;font:600 clamp(34px,4.5vw,54px)/1.05 'Playfair Display',Georgia,serif}
+.bio-intro p{color:#526173;line-height:1.75;max-width:600px}
+.bio-small-title{letter-spacing:.17em;font-size:11px;font-weight:800;color:#a47b28}
+.bio-intro blockquote{margin:0;padding:26px 28px;border-left:3px solid #b99336;background:#f8f5ee;font:italic 600 clamp(21px,2.5vw,29px)/1.4 'Playfair Display',Georgia,serif;color:#172d49}
+.bio-intro blockquote span{display:block;margin-top:15px;font:500 11px/1.5 'DM Sans',Arial,sans-serif;letter-spacing:.04em;color:#596777}
+.bio-local-callout{display:grid;grid-template-columns:70px 1fr;gap:12px;margin:20px 0 46px;padding:30px 32px;background:#172d49;color:white;border-radius:14px;border-left:5px solid #d0ab50}
+.bio-local-callout .eyebrow{color:#e2bc60;margin:0 0 8px}
+.bio-local-callout h3{font:600 clamp(25px,3vw,37px)/1.2 'Playfair Display',Georgia,serif;margin:0 0 10px;color:white}
+.bio-local-callout p:not(.eyebrow){max-width:780px;line-height:1.75;color:#edf0f5;margin:0 0 16px}
+.bio-local-link{display:inline-block;color:#f2d28f;font-size:13px;font-weight:700;text-underline-offset:4px}
+.bio-local-mark{font-size:40px;color:#d0ab50}
+.bio-timeline-heading h3{font:600 clamp(27px,3.5vw,40px)/1.15 'Playfair Display',Georgia,serif;margin:0 0 8px}
+.bio-timeline-heading p{margin:0 0 26px;color:#627183;font-size:14px}
+.bio-timeline{list-style:none;padding:0;margin:0;max-width:880px}
+.bio-item{padding:0 0 0 32px;position:relative;border-left:2px solid #e7dfcc;margin-left:18px}
+.bio-item:before{content:'';position:absolute;left:-8px;top:23px;width:14px;height:14px;border:2px solid #fff;background:#b99336;border-radius:50%;box-shadow:0 0 0 2px #e7dfcc}
+.bio-detail{border-bottom:1px solid #e7ebef}
+.bio-detail summary{cursor:pointer;list-style:none;display:flex;gap:22px;align-items:center;padding:15px 10px 15px 0;min-height:65px}
+.bio-detail summary::-webkit-details-marker{display:none}
+.bio-detail summary:focus-visible{outline:3px solid #b99336;outline-offset:3px}
+.bio-year{font:800 19px 'DM Sans',Arial,sans-serif;color:#a57c2c;min-width:54px;font-variant-numeric:tabular-nums}
+.bio-entry-title{flex:1;color:#172d49;font:700 clamp(14px,1.6vw,17px)/1.35 'DM Sans',Arial,sans-serif}
+.bio-toggle{font-size:26px;line-height:1;color:#8b96a4;font-weight:300;transition:transform .2s ease}
+.bio-detail[open] .bio-toggle{transform:rotate(45deg)}
+.bio-body{padding:0 34px 20px 76px}
+.bio-body p{line-height:1.75;color:#526173;font-size:14px;margin:0}
+.bio-item-salta .bio-detail{background:#fbf6e9;margin-left:-13px;padding-left:13px;border-radius:9px;border-bottom:1px solid #e8d6ad}
+.bio-item-salta:before{background:#172d49;box-shadow:0 0 0 3px #dec58c}
+.bio-local-chip{display:inline-block;vertical-align:middle;margin-left:7px;padding:3px 7px;border-radius:4px;background:#c5a04d;color:#15243b;font:800 10px 'DM Sans',Arial,sans-serif;letter-spacing:.08em}
+.bio-source-note{margin:22px 0 0;font-size:12px;color:#738091}
+@media(max-width:760px){.bio-intro{grid-template-columns:1fr;gap:16px;padding-top:20px}.bio-intro blockquote{padding:20px}.bio-local-callout{grid-template-columns:1fr;padding:22px 20px;margin:15px 0 35px}.bio-local-mark{display:none}.bio-item{padding-left:21px;margin-left:9px}.bio-detail summary{gap:9px}.bio-year{font-size:16px;min-width:43px}.bio-body{padding:0 17px 18px 52px}.bio-local-chip{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.bio-toggle{transition:none}}
