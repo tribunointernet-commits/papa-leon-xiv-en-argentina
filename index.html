@@ -9,8 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css">
-  <script src="assets/app.js" defer></script>
+  <link rel="preload" as="image" href="assets/papa-leon-xiv-retrato.webp" type="image/webp">
+  <link rel="stylesheet" href="assets/styles.css?v=2">
+  <script src="assets/app.js?v=2" defer></script>
 </head>
 <body>
   <a class="skip" href="#contenido">Ir al contenido</a>
@@ -20,12 +21,14 @@
     <a class="masthead-news" href="https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina" target="_blank" rel="noopener">Todas las noticias <span aria-hidden="true">↗</span></a>
   </div></header>
   <main id="contenido">
-    <section class="hero" aria-labelledby="hero-title"><div class="hero-glow"></div><div class="shell hero-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-photo"><img src="assets/papa-leon-xiv-retrato.webp" alt="Retrato del papa León XIV, mirando hacia la cámara" fetchpriority="high" width="1600" height="1000"></div>
+      <div class="shell hero-content"><div class="hero-copy">
       <p class="eyebrow">EL TRIBUNO · COBERTURA ESPECIAL</p>
       <h1 id="hero-title">León XIV<br><em>en Argentina</em></h1>
       <p class="hero-lede">Los mensajes del Papa, la agenda de su visita y las historias de fe que conectan a Salta con el país.</p>
       <a class="hero-jump" href="#minuto-a-minuto">Seguí la cobertura <span aria-hidden="true">↓</span></a>
-    </div><div class="hero-corner" aria-hidden="true">✝</div></section>
+    </div></div></section>
     <div class="shell countdown-wrap"><section class="countdown" aria-label="Cuenta regresiva para la llegada del papa León XIV">
       <div class="countdown-ident"><span class="countdown-cross" aria-hidden="true">✝</span><div><strong>Falta para la llegada</strong><small>8 DE NOVIEMBRE · 16:30 H (ARG)</small></div></div>
       <div id="countdown-units" class="countdown-units" aria-live="off">
