@@ -1,18 +1,30 @@
-// Filtros de la agenda local. No modifica el minuto a minuto ni su feed.
+// Agenda cerrada inicialmente: solo se abre la ciudad elegida.
+// No modifica el feed ni el minuto a minuto.
 (() => {
   'use strict';
-  const buttons = Array.from(document.querySelectorAll('.agenda-filter-btn'));
-  const panels = Array.from(document.querySelectorAll('.agenda-city-panel'));
-  if (!buttons.length || !panels.length) return;
+  const buttons = [...document.querySelectorAll('.agenda-filter-btn')];
+  const panels = [...document.querySelectorAll('.agenda-city-panel')];
+  const container = document.querySelector('.agenda-panels');
+  if (!buttons.length || !panels.length || !container) return;
+
+  function setOpen(target) {
+    buttons.forEach(button => {
+      const open = button.dataset.target === target;
+      button.classList.toggle('is-active', open);
+      button.setAttribute('aria-pressed', String(open));
+      button.setAttribute('aria-expanded', String(open));
+    });
+    panels.forEach(panel => {
+      panel.hidden = panel.id !== `agenda-panel-${target}`;
+    });
+    container.hidden = !target;
+  }
+
+  setOpen(null);
   buttons.forEach(button => {
     button.addEventListener('click', () => {
-      const id = 'agenda-panel-' + button.dataset.target;
-      buttons.forEach(b => {
-        const active = b === button;
-        b.classList.toggle('is-active', active);
-        b.setAttribute('aria-pressed', String(active));
-      });
-      panels.forEach(panel => { panel.hidden = panel.id !== id; });
+      const target = button.dataset.target;
+      setOpen(button.classList.contains('is-active') ? null : target);
     });
   });
 })();

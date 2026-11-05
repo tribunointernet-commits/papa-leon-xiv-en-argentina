@@ -1,11 +1,7 @@
-ACTUALIZACIÓN AGENDA POR CIUDADES - EL TRIBUNO
+ACTUALIZACIÓN: mapas de cuatro sedes en la agenda desplegable.
 
-Subir estos archivos conservando las rutas:
-index.html
-assets/styles.css
-assets/agenda.js
+En GitHub reemplazá index.html y assets/styles.css. No necesitás cambiar assets/agenda.js (se incluye por comodidad).
 
-No reemplazar assets/app.js, data/latest.json, scripts, .github ni las imágenes.
-Esta versión conserva el indicador EN VIVO animado y el resto del diseño de la actualización anterior.
-La agenda muestra 22 actos: Buenos Aires 17, Córdoba 4 y Luján 1.
-Los horarios corresponden a Argentina UTC-3.
+Se agrega «Ver mapa» en: Monumento de los Españoles (dos actos), Predio de FAdeA, Catedral de Córdoba y Plaza de la Basílica de Luján. Todos abren Google Maps en una pestaña nueva.
+
+No cambia el minuto a minuto ni GitHub Actions.
