@@ -1,0 +1,9 @@
+<!-- CIERRE VISUAL DEL ESPECIAL | Insertar justo antes de </main> -->
+<section class="leo-end" aria-labelledby="leo-end-title">
+  <div class="leo-end__content">
+    <p class="leo-end__kicker">EL TRIBUNO · COBERTURA ESPECIAL</p>
+    <h2 id="leo-end-title">León XIV<br>en Argentina</h2>
+    <p>Las noticias, las historias de fe y la mirada de Salta sobre la visita del Papa.</p>
+    <a class="leo-end__link" href="https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina" target="_blank" rel="noopener noreferrer">Seguí toda la cobertura <span aria-hidden="true">↗</span></a>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+ACTUALIZACIÓN SEGURA: CIERRE VISUAL LEÓN XIV
+
+No reemplaces index.html ni styles.css completos: pueden contener cambios recientes que no tenemos en este paquete.
+
+1. En GitHub abrí la carpeta assets. Subí SOLO assets/leon-xiv-cierre.webp.
+2. Editá assets/styles.css y PEGÁ AL FINAL el contenido de ESTILOS_CSS.txt. Guardá el cambio.
+3. Editá index.html y PEGÁ el contenido de BLOQUE_HTML.txt JUSTO ANTES de la etiqueta </main>, después de la última sección del especial.
+4. Confirmá Commit changes.
+5. Actualizá con Cmd+Shift+R. Si seguís viendo CSS anterior, aumentá la versión del href de styles.css en el head de index.html (p.ej. ?v=9).
+
+No se necesita JavaScript. No se modifica el minuto a minuto, la agenda ni el carrusel.
+NOTA: verificá las condiciones de reproducción y atribución de la imagen antes de publicarla.
