@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-11-05T20:16:19Z",
+  "updated_at": "2026-11-06T00:58:11Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
     "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina"
   ],
   "items": [
+    {
+      "url": "https://www.eltribuno.com/salta/2026-11-5-16-54-0-un-cristo-tallado-a-mano-por-un-artesano-salteno-llegara-a-las-manos-del-papa-leon-xiv",
+      "title": "Un Cristo tallado a mano por un artesano salteño llegará a las manos del papa León XIV",
+      "summary": "La escultura fue realizada por Don Mercedes González, un artesano de Finca Pucará. Monseñor Darío Quintana, obispo de la Prelatura de Cafayate, asumió el compromiso de entregársela personalmente al Santo Padre.",
+      "image": "https://uscdn.eltribuno.com/112026/1793912150387.jpeg",
+      "published_at": "2026-11-05T23:34:00Z"
+    },
     {
       "url": "https://www.eltribuno.com/salta/2026-11-5-11-5-0-salta-se-prepara-para-recibir-al-papa-leon-xiv-con-un-gran-encuentro-en-plaza-espana",
       "title": "Salta se prepara para recibir al papa León XIV con un gran encuentro en plaza España",
@@ -33,13 +40,6 @@
       "summary": "El padre Martín Farfán contó cómo se prepara la participación de las comunidades salteñas en las actividades por la visita de León XIV. La imagen peregrina del Señor del Milagro y cartas de personas alojadas en Villa Las Rosas acompañarán el encuentro con el Papa.",
       "image": "https://uscdn.eltribuno.com/112026/1793836185035.jpg",
       "published_at": "2026-11-04T23:47:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/salta/2026-11-4-18-42-0-la-visita-del-papa-leon-xiv-a-la-argentina-trae-gratos-recuerdos-el-dia-que-salta-recibio-a-juan-pablo-ii",
-      "title": "La visita del papa León XIV a la Argentina trae gratos recuerdos: el día que Salta recibió a Juan Pablo II",
-      "summary": "La próxima llegada del papa León XIV a la Argentina trae nuevamente a la memoria aquella histórica visita de Juan Pablo II a Salta, en abril de 1987. El entonces Sumo Pontífice reunió a una multitud en el Jockey Club y rezó ante las imágenes del Señor y la Virgen del Milagro.",
-      "image": "https://uscdn.eltribuno.com/112026/1793830954917.jpg",
-      "published_at": "2026-11-04T22:19:00Z"
     }
   ]
 }
