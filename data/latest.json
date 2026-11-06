@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-11-06T00:58:11Z",
+  "updated_at": "2026-11-06T07:38:07Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
     "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina"
   ],
   "items": [
+    {
+      "url": "https://www.eltribuno.com/nacionales/2026-11-6-0-0-0-la-carta-de-ai-para-el-papa-con-fuertes-reclamos-sociales",
+      "title": "La carta de AI para el Papa, con fuertes reclamos sociales",
+      "summary": "La ONG pide que reclame por los derechos de los más vulnerables.",
+      "image": "https://uscdn.eltribuno.com/112026/1793939094056.jpg",
+      "published_at": "2026-11-06T04:34:10Z"
+    },
     {
       "url": "https://www.eltribuno.com/salta/2026-11-5-16-54-0-un-cristo-tallado-a-mano-por-un-artesano-salteno-llegara-a-las-manos-del-papa-leon-xiv",
       "title": "Un Cristo tallado a mano por un artesano salteño llegará a las manos del papa León XIV",
@@ -33,13 +40,6 @@
       "summary": "Dijo que es una bendición la misión en los tres países.",
       "image": "https://uscdn.eltribuno.com/112026/1793844851127.jpg",
       "published_at": "2026-11-05T04:20:30Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/salta/2026-11-4-20-6-0-la-imagen-peregrina-lleva-los-rostros-los-dolores-y-las-esperanzas-de-salta-al-corazon-del-papa",
-      "title": "Los rostros, dolores y esperanzas de Salta viajarán con el Señor del Milagro hasta el papa León XIV",
-      "summary": "El padre Martín Farfán contó cómo se prepara la participación de las comunidades salteñas en las actividades por la visita de León XIV. La imagen peregrina del Señor del Milagro y cartas de personas alojadas en Villa Las Rosas acompañarán el encuentro con el Papa.",
-      "image": "https://uscdn.eltribuno.com/112026/1793836185035.jpg",
-      "published_at": "2026-11-04T23:47:00Z"
     }
   ]
 }
