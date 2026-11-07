@@ -1,11 +1,25 @@
 {
-  "updated_at": "2026-11-07T00:34:36Z",
+  "updated_at": "2026-11-07T01:43:23Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
     "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina"
   ],
   "items": [
+    {
+      "url": "https://www.eltribuno.com/salta/2026-11-6-18-38-0-a-horas-de-la-llegada-de-leon-xiv-una-placa-recuerda-el-paso-de-juan-pablo-ii-por-salta",
+      "title": "A horas de la llegada de León XIV, una placa recuerda el paso de Juan Pablo II por Salta",
+      "summary": "Ante la llegada del papa León XIV a la Argentina, Salta revive uno de los momentos más importantes de su historia, cuando Juan Pablo II visitó la Catedral Basílica en 1987.",
+      "image": "https://uscdn.eltribuno.com/112026/1794003342054.jpg",
+      "published_at": "2026-11-07T00:52:00Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/espectaculos/2026-11-6-21-47-0-la-saltena-que-cantara-para-el-papa-leon-xiv-en-cordoba-es-un-regalo-de-dios",
+      "title": "La salteña que cantará para el papa León XIV en Córdoba: “Es un regalo de Dios”",
+      "summary": "Paula Remis, cantante oriunda de Salta e integrante del grupo Trinidad Música Católica, fue invitada junto a su esposo, Pablo Barros, a participar de distintas actividades durante la visita del papa León XIV.",
+      "image": "https://uscdn.eltribuno.com/112026/1793912484183.jpg",
+      "published_at": "2026-11-07T00:47:00Z"
+    },
     {
       "url": "https://www.eltribuno.com/nacionales/2026-11-6-0-0-0-la-carta-de-ai-para-el-papa-con-fuertes-reclamos-sociales",
       "title": "La carta de AI para el Papa, con fuertes reclamos sociales",
@@ -26,20 +40,6 @@
       "summary": "La llegada del papa León XIV a la Argentina también se vivirá de una manera especial en Salta. El lunes 9 de noviembre, plaza España reunirá a familias y fieles en una jornada que combinará música, expresiones culturales y momentos de fe. Habrá pantallas gigantes para seguir en vivo la misa presidida por el Pontífice, además de distintas actividades que comenzarán desde temprano. Conocé los horarios, cómo será el encuentro y qué recomiendan ll…",
       "image": "https://uscdn.eltribuno.com/112026/1793888022958.jpg",
       "published_at": "2026-11-05T14:20:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/nacionales/2026-11-5-10-12-0-leon-xiv-en-argentina-quienes-acompanaran-al-papa-en-el-palacio-libertad",
-      "title": "León XIV en Argentina: quiénes acompañarán al Papa en el Palacio Libertad",
-      "summary": "El Gobierno realizó una amplia convocatoria para mostrar un mensaje de unidad.",
-      "image": "https://uscdn.eltribuno.com/112026/1793885282038.jpg",
-      "published_at": "2026-11-05T13:30:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/salta/2026-11-5-0-0-0-leon-xiv-pidio-oraciones-por-su-gira-en-america",
-      "title": "León XIV pidió oraciones por su gira en América",
-      "summary": "Dijo que es una bendición la misión en los tres países.",
-      "image": "https://uscdn.eltribuno.com/112026/1793844851127.jpg",
-      "published_at": "2026-11-05T04:20:30Z"
     }
   ]
 }
