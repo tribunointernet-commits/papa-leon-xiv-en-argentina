@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-11-07T06:30:28Z",
+  "updated_at": "2026-11-07T13:26:25Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
     "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina"
   ],
   "items": [
+    {
+      "url": "https://www.eltribuno.com/salta/2026-11-4-11-52-0-a-39-anos-de-la-visita-de-juan-pablo-ii-a-salta-las-imagenes-historicas-que-guarda-el-tribuno",
+      "title": "La llegada de León XIV revive el histórico paso de Juan Pablo II por Salta guarda El Tribuno",
+      "summary": "El 8 de abril de 1987, el papa Juan Pablo II llegó a Salta y fue recibido por una multitud en el Hipódromo de Limache. Cerca de 600.000 personas participaron de aquella jornada histórica. A través de su archivo fotográfico, El Tribuno recupera los momentos más emotivos de una visita que quedó grabada en la memoria de los salteños.",
+      "image": "https://uscdn.eltribuno.com/112026/1793805959333.jpg",
+      "published_at": "2026-11-07T12:08:00Z"
+    },
     {
       "url": "https://www.eltribuno.com/nacionales/2026-11-7-0-0-0-mendez-el-estilo-conciliador-del-papa-nos-va-a-venir-muy-bien",
       "title": "Méndez: &quot;El estilo conciliador del Papa nos va a venir muy bien&quot;",
@@ -33,13 +40,6 @@
       "summary": "Paula Remis, cantante oriunda de Salta e integrante del grupo Trinidad Música Católica, fue invitada junto a su esposo, Pablo Barros, a participar de distintas actividades durante la visita del papa León XIV.",
       "image": "https://uscdn.eltribuno.com/112026/1793912484183.jpg",
       "published_at": "2026-11-07T00:47:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/nacionales/2026-11-6-0-0-0-la-carta-de-ai-para-el-papa-con-fuertes-reclamos-sociales",
-      "title": "La carta de AI para el Papa, con fuertes reclamos sociales",
-      "summary": "La ONG pide que reclame por los derechos de los más vulnerables.",
-      "image": "https://uscdn.eltribuno.com/112026/1793939094056.jpg",
-      "published_at": "2026-11-06T04:34:10Z"
     }
   ]
 }
