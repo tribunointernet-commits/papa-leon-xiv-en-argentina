@@ -1,11 +1,25 @@
 {
-  "updated_at": "2026-11-07T01:43:23Z",
+  "updated_at": "2026-11-07T06:30:28Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
     "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina"
   ],
   "items": [
+    {
+      "url": "https://www.eltribuno.com/nacionales/2026-11-7-0-0-0-mendez-el-estilo-conciliador-del-papa-nos-va-a-venir-muy-bien",
+      "title": "Méndez: &quot;El estilo conciliador del Papa nos va a venir muy bien&quot;",
+      "summary": "El sacerdote analizó la próxima visita del Pontífice.",
+      "image": "https://uscdn.eltribuno.com/112026/1794023513578.jpg",
+      "published_at": "2026-11-07T04:06:32Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/nacionales/2026-11-7-0-0-0-se-esperan-mas-de-tres-millones-de-turistas-en-la-argentina",
+      "title": "Se esperan más de tres millones de turistas en la Argentina",
+      "summary": "Hay grandes expectativas en Buenos Aires, Luján y Córdoba.",
+      "image": "https://uscdn.eltribuno.com/112026/1794023282942.jpg",
+      "published_at": "2026-11-07T04:06:32Z"
+    },
     {
       "url": "https://www.eltribuno.com/salta/2026-11-6-18-38-0-a-horas-de-la-llegada-de-leon-xiv-una-placa-recuerda-el-paso-de-juan-pablo-ii-por-salta",
       "title": "A horas de la llegada de León XIV, una placa recuerda el paso de Juan Pablo II por Salta",
@@ -26,20 +40,6 @@
       "summary": "La ONG pide que reclame por los derechos de los más vulnerables.",
       "image": "https://uscdn.eltribuno.com/112026/1793939094056.jpg",
       "published_at": "2026-11-06T04:34:10Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/salta/2026-11-5-16-54-0-un-cristo-tallado-a-mano-por-un-artesano-salteno-llegara-a-las-manos-del-papa-leon-xiv",
-      "title": "Un Cristo tallado a mano por un artesano salteño llegará a las manos del papa León XIV",
-      "summary": "La escultura fue realizada por Don Mercedes González, un artesano de Finca Pucará. Monseñor Darío Quintana, obispo de la Prelatura de Cafayate, asumió el compromiso de entregársela personalmente al Santo Padre.",
-      "image": "https://uscdn.eltribuno.com/112026/1793912150387.jpeg",
-      "published_at": "2026-11-05T23:34:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/salta/2026-11-5-11-5-0-salta-se-prepara-para-recibir-al-papa-leon-xiv-con-un-gran-encuentro-en-plaza-espana",
-      "title": "Salta se prepara para recibir al papa León XIV con un gran encuentro en plaza España",
-      "summary": "La llegada del papa León XIV a la Argentina también se vivirá de una manera especial en Salta. El lunes 9 de noviembre, plaza España reunirá a familias y fieles en una jornada que combinará música, expresiones culturales y momentos de fe. Habrá pantallas gigantes para seguir en vivo la misa presidida por el Pontífice, además de distintas actividades que comenzarán desde temprano. Conocé los horarios, cómo será el encuentro y qué recomiendan ll…",
-      "image": "https://uscdn.eltribuno.com/112026/1793888022958.jpg",
-      "published_at": "2026-11-05T14:20:00Z"
     }
   ]
 }
