@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T13:54:13Z",
+  "updated_at": "2026-11-08T18:32:59Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
@@ -7,11 +7,25 @@
   ],
   "items": [
     {
-      "url": "https://www.eltribuno.com/el-mundo/2026-11-8-10-23-0-el-papa-leon-xiv-llamo-a-no-tener-miedo-de-decir-yo-soy-cristiano-yo-creo-en-jesucristo",
-      "title": "Ultima misa en Uruguay: El Papa León XIV llamó a &quot;no tener miedo de decir 'yo soy cristiano, yo creo en Jesucristo'&quot;",
-      "summary": "Este domingo cumplirá sus últimas actividades en el país vecino y partirá hacia la Argentina durante la tarde.",
-      "image": "https://uscdn.eltribuno.com/112026/1794144278679.jpg",
+      "url": "https://www.eltribuno.com/nacionales/2026-11-8-12-8-0-el-papa-leon-xiv-finalizo-su-ultima-misa-en-uruguay-y-se-prepara-para-viajar-hacia-la-argentina",
+      "title": "El papa León XIV finalizó su última misa en Uruguay y parte rumbo a la Argentina",
+      "summary": "El pontífice se prepara para partir desde Montevideo rumbo a Buenos Aires, luego de celebrar una multitudinaria misa frente a la Basílica de Florida. Durante su homilía, destacó el papel de las mujeres en la transmisión de la fe y pidió rezar por los gobernantes.",
+      "image": "https://uscdn.eltribuno.com/112026/1794154379507.jpg",
+      "published_at": "2026-11-08T15:17:00Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/el-mundo/2026-11-8-10-23-0-leon-xiv-destaco-el-rol-de-las-familias-en-la-transmision-de-la-fe-y-consagro-uruguay-a-la-virgen",
+      "title": "León XIV destacó el rol de las familias en la transmisión de la fe y consagró Uruguay a la Virgen",
+      "summary": "El Pontífice encabezó una misa en la Catedral Basílica de Florida, donde recordó a las madres y abuelas que transmitieron las creencias a sus hijos y convocó a acercarse a quienes se alejaron de la Iglesia.",
+      "image": "https://uscdn.eltribuno.com/112026/1794148108045.jpg",
       "published_at": "2026-11-08T13:30:00Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/nacionales/2026-11-8-9-53-0-karina-milei-todo-listo-para-recibir-al-papa-leon-xiv",
+      "title": "Karina Milei: “Todo listo para recibir al papa León XIV”",
+      "summary": "La secretaria general de la Presidencia celebró la llegada del santo padre y destacó el trabajo conjunto del Gobierno nacional con la Iglesia, CABA, PBA y Córdoba.",
+      "image": "https://uscdn.eltribuno.com/112026/1794149550031.jpg",
+      "published_at": "2026-11-08T13:00:00Z"
     },
     {
       "url": "https://www.eltribuno.com/internacionales/2026-11-8-6-31-0-el-legado-leon-xiv-un-pastor-que-sigue-el-camino-de-francisco",
@@ -25,20 +39,6 @@
       "title": "León XIV llega hoy y pone fin a 39 años sin una visita papal",
       "summary": "Arribará a las 16.30 y será recibido por Milei. Cumplirá cuatro días de actividades.Su mensaje social y palabras sobre Francisco concentran la atención.",
       "image": "https://uscdn.eltribuno.com/112026/1794108870416.jpg",
-      "published_at": "2026-11-08T03:56:40Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/nacionales/2026-11-8-0-0-0-el-cambio-de-milei-con-el-vaticano-del-insulto-a-la-bienvenida",
-      "title": "El cambio de Milei con el Vaticano: del insulto a la bienvenida",
-      "summary": "La llegada de León XIV expone el giro político del Presidente.",
-      "image": "https://uscdn.eltribuno.com/112026/1794109503741.jpg",
-      "published_at": "2026-11-08T03:56:40Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/edicion-impresa/2026-11-8-0-0-0-volver-a-aquel-abril-una-entrevista-imaginaria-con-juan-pablo-ii-en-salta",
-      "title": "Volver a aquel abril: una entrevista imaginaria con Juan Pablo II en Salta",
-      "summary": "Un diálogo sobre la fe, la paz y la esperanza.",
-      "image": "https://uscdn.eltribuno.com/112026/1794106003320.jpg",
       "published_at": "2026-11-08T03:56:40Z"
     }
   ]
