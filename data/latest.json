@@ -1,11 +1,25 @@
 {
-  "updated_at": "2026-11-08T06:48:31Z",
+  "updated_at": "2026-11-08T13:54:13Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
     "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina"
   ],
   "items": [
+    {
+      "url": "https://www.eltribuno.com/el-mundo/2026-11-8-10-23-0-el-papa-leon-xiv-llamo-a-no-tener-miedo-de-decir-yo-soy-cristiano-yo-creo-en-jesucristo",
+      "title": "Ultima misa en Uruguay: El Papa León XIV llamó a &quot;no tener miedo de decir 'yo soy cristiano, yo creo en Jesucristo'&quot;",
+      "summary": "Este domingo cumplirá sus últimas actividades en el país vecino y partirá hacia la Argentina durante la tarde.",
+      "image": "https://uscdn.eltribuno.com/112026/1794144278679.jpg",
+      "published_at": "2026-11-08T13:30:00Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/internacionales/2026-11-8-6-31-0-el-legado-leon-xiv-un-pastor-que-sigue-el-camino-de-francisco",
+      "title": "El legado: León XIV, un pastor que sigue el camino de Francisco",
+      "summary": "El recordado paso del Papa por Perú, cuando solo era Robert Francis Prevost, y la estrecha relación que tenía con su antecesor argentino.",
+      "image": "https://uscdn.eltribuno.com/112026/1794130388781.jpg",
+      "published_at": "2026-11-08T09:36:00Z"
+    },
     {
       "url": "https://www.eltribuno.com/nacionales/2026-11-8-0-0-0-leon-xiv-llega-hoy-y-pone-fin-a-39-anos-sin-una-visita-papal",
       "title": "León XIV llega hoy y pone fin a 39 años sin una visita papal",
@@ -26,20 +40,6 @@
       "summary": "Un diálogo sobre la fe, la paz y la esperanza.",
       "image": "https://uscdn.eltribuno.com/112026/1794106003320.jpg",
       "published_at": "2026-11-08T03:56:40Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/salta/2026-11-8-0-0-0-la-imagen-peregrina-del-senor-del-milagro-ya-esta-en-cordoba",
-      "title": "La imagen peregrina del Señor del Milagro ya está en Córdoba",
-      "summary": "Viajó para acompañar la visita del papa León XIV.",
-      "image": "https://uscdn.eltribuno.com/112026/1794108310583.jpg",
-      "published_at": "2026-11-08T03:56:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/policiales/2026-11-7-22-57-0-amenazo-de-muerte-al-papa-leon-xiv-y-fue-detenido-tras-un-trabajo-de-inteligencia",
-      "title": "Amenazó de muerte al Papa León XIV y fue detenido tras un trabajo de inteligencia",
-      "summary": "La Secretaría de Inteligencia de Estado informó que el procedimiento se concretó tras aportar información a la Policía Federal Argentina y fue ordenado por el Juzgado Federal de Campana.",
-      "image": "https://uscdn.eltribuno.com/112026/1794103347843.jpg",
-      "published_at": "2026-11-08T02:04:00Z"
     }
   ]
 }
