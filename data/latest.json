@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:45:06Z",
+  "updated_at": "2026-11-08T00:55:13Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
@@ -7,8 +7,15 @@
   ],
   "items": [
     {
+      "url": "https://www.eltribuno.com/salta/2026-11-6-9-15-0-delia-aguilar-historica-locutora-de-radio-salta-recordo-la-visita-de-juan-pablo-ii-me-abrazo-toda-la-vida",
+      "title": "Delia Aguilar, histórica locutora de Radio Salta, recordó la visita de Juan Pablo II: “Me abrazó toda la vida”",
+      "summary": "A 39 años de la histórica llegada de Juan Pablo II a Salta, Delia Aguilar, locutora de Radio Salta, recordó con profunda emoción cómo vivió la cobertura de 1987 desde FM Génesis. Tenía poco más de 20 años y, con un grabador de casete, un teléfono fijo y un micrófono, asumió el desafío de transmitir los sentimientos de miles de salteños. “Me correspondía ser la voz de la emoción de todos los salteños”, expresó.",
+      "image": "https://uscdn.eltribuno.com/112026/1793968452706.jpg",
+      "published_at": "2026-11-07T16:46:00Z"
+    },
+    {
       "url": "https://www.eltribuno.com/salta/2026-11-4-11-52-0-a-39-anos-de-la-visita-de-juan-pablo-ii-a-salta-las-imagenes-historicas-que-guarda-el-tribuno",
-      "title": "La llegada de León XIV revive el histórico paso de Juan Pablo II por Salta guarda El Tribuno",
+      "title": "La llegada de León XIV revive el histórico paso de Juan Pablo II por Salta a través del archivo de El Tribuno",
       "summary": "El 8 de abril de 1987, el papa Juan Pablo II llegó a Salta y fue recibido por una multitud en el Hipódromo de Limache. Cerca de 600.000 personas participaron de aquella jornada histórica. A través de su archivo fotográfico, El Tribuno recupera los momentos más emotivos de una visita que quedó grabada en la memoria de los salteños.",
       "image": "https://uscdn.eltribuno.com/112026/1793805959333.jpg",
       "published_at": "2026-11-07T12:08:00Z"
@@ -33,13 +40,6 @@
       "summary": "Ante la llegada del papa León XIV a la Argentina, Salta revive uno de los momentos más importantes de su historia, cuando Juan Pablo II visitó la Catedral Basílica en 1987.",
       "image": "https://uscdn.eltribuno.com/112026/1794003342054.jpg",
       "published_at": "2026-11-07T00:52:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/espectaculos/2026-11-6-21-47-0-la-saltena-que-cantara-para-el-papa-leon-xiv-en-cordoba-es-un-regalo-de-dios",
-      "title": "La salteña que cantará para el papa León XIV en Córdoba: “Es un regalo de Dios”",
-      "summary": "Paula Remis, cantante oriunda de Salta e integrante del grupo Trinidad Música Católica, fue invitada junto a su esposo, Pablo Barros, a participar de distintas actividades durante la visita del papa León XIV.",
-      "image": "https://uscdn.eltribuno.com/112026/1793912484183.jpg",
-      "published_at": "2026-11-07T00:47:00Z"
     }
   ]
 }
