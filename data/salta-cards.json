@@ -1,34 +1,40 @@
 {
   "items": [
     {
-      "category": "EL SEÑOR DEL MILAGRO",
-      "title": "La fe salteña llega al corazón del Papa",
-      "url": "https://www.eltribuno.com/salta/2026-11-4-20-6-0-la-imagen-peregrina-lleva-los-rostros-los-dolores-y-las-esperanzas-de-salta-al-corazon-del-papa",
-      "image": "https://uscdn.eltribuno.com/112026/1793836185035.jpg?&cw=1200&ch=630"
+      "category": "ARCHIVO HISTÓRICO",
+      "title": "La visita de Juan Pablo II a Salta, en imágenes históricas",
+      "url": "https://www.eltribuno.com/salta/2026-11-4-11-52-0-a-39-anos-de-la-visita-de-juan-pablo-ii-a-salta-las-imagenes-historicas-que-guarda-el-tribuno",
+      "image": ""
     },
     {
-      "category": "PEREGRINOS",
-      "title": "Cientos de salteños viajarán para encontrarse con León XIV",
-      "url": "https://www.eltribuno.com/salta/2026-11-3-16-12-0-salta-se-prepara-para-vivir-la-visita-de-leon-xiv-cientos-de-fieles-viajaran-para-encontrarse-con-el-papa",
-      "image": "https://uscdn.eltribuno.com/112026/1793733407045.jpg?&cw=1200&ch=630"
+      "category": "SALTA EN 1987",
+      "title": "Cómo vivieron los salteños la espera de Juan Pablo II",
+      "url": "https://www.eltribuno.com/salta/2026-11-9-0-22-0-como-se-vivio-la-espera-de-los-saltenos-por-juan-pablo-ii",
+      "image": ""
     },
     {
-      "category": "SALTA",
-      "title": "Plaza España se prepara para vivir la visita del Papa",
-      "url": "https://www.eltribuno.com/salta/2026-11-5-11-5-0-salta-se-prepara-para-recibir-al-papa-leon-xiv-con-un-gran-encuentro-en-plaza-espana",
-      "image": "https://uscdn.eltribuno.com/112026/1793888022958.jpg?&cw=1200&ch=630"
+      "category": "RADIO SALTA",
+      "title": "Delia Aguilar y el recuerdo que la abrazó toda la vida",
+      "url": "https://www.eltribuno.com/salta/2026-11-6-9-15-0-delia-aguilar-historica-locutora-de-radio-salta-recordo-la-visita-de-juan-pablo-ii-me-abrazo-toda-la-vida",
+      "image": ""
     },
     {
-      "category": "SERVICIOS",
-      "title": "Cómo serán los feriados por la visita papal en Salta",
-      "url": "https://www.eltribuno.com/nacionales/2026-11-2-17-13-0-visita-del-papa-leon-xiv-como-seran-los-feriados-de-noviembre-y-que-pasara-en-salta",
-      "image": "https://uscdn.eltribuno.com/112026/1793652040422.jpg?&cw=1200&ch=630"
+      "category": "LOS FIELES",
+      "title": "Así se movilizaron los fieles para el encuentro",
+      "url": "https://www.eltribuno.com/salta/2026-11-9-0-37-0-asi-se-movilizaron-los-fieles-para-el-encuentro",
+      "image": ""
     },
     {
-      "category": "GUÍA PARA VIAJAR",
-      "title": "Cuánto cuesta viajar de Salta a Córdoba para ver al Papa",
-      "url": "https://www.eltribuno.com/salta/2026-9-24-19-25-0-desde-salta-cuanto-cuesta-viajar-a-cordoba-para-ver-al-papa-leon-xiv",
-      "image": "https://uscdn.eltribuno.com/092026/1790290207185.jpg?&cw=1200&ch=630"
+      "category": "MEMORIA DE SALTA",
+      "title": "Una placa recuerda el paso de Juan Pablo II por Salta",
+      "url": "https://www.eltribuno.com/salta/2026-11-6-18-38-0-a-horas-de-la-llegada-de-leon-xiv-una-placa-recuerda-el-paso-de-juan-pablo-ii-por-salta",
+      "image": ""
+    },
+    {
+      "category": "TESTIMONIOS",
+      "title": "Bernacki recuerda la noche en que Salta recibió a Juan Pablo II",
+      "url": "https://www.eltribuno.com/salta/2026-11-6-8-24-0-la-noche-en-que-salta-cuido-el-sueno-de-juan-pablo-ii-los-recuerdos-de-monsenor-bernacki",
+      "image": ""
     }
   ]
 }
