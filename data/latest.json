@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-11-10T22:20:59Z",
+  "updated_at": "2026-11-11T01:59:23Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
     "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina"
   ],
   "items": [
+    {
+      "url": "https://www.eltribuno.com/nacionales/2026-11-10-19-57-0-el-papa-leon-xiv-se-reune-con-los-jovenes-y-vuelve-a-reunir-una-multitud-en-el-monumento-de-los-espanoles",
+      "title": "EN VIVO. El papa León XIV con los jóvenes: &quot;Gracias por esta bienvenida que quizás solo Argentina pueda dar&quot;",
+      "summary": "El Pontífice volvió a convocar a una multitud en la plaza de los Españoles, luego de estar en Córdoba.",
+      "image": "https://uscdn.eltribuno.com/112026/1794352823627.jpg",
+      "published_at": "2026-11-10T23:06:00Z"
+    },
     {
       "url": "https://www.eltribuno.com/salta/2026-11-10-19-8-0-la-historia-detras-del-poncho-hecho-en-salta-que-recibio-leon-xiv-quien-es-terito-guzman",
       "title": "La historia detrás del poncho hecho en Salta que recibió León XIV: quién es Terito Guzmán",
@@ -33,13 +40,6 @@
       "summary": ": &quot;Muchos de ustedes estaban con las manos en el aire, quizás para saludarme o para acompañar el canto. Estas son las manos que Jesús está buscando&quot;, dijo el Sumo Pontífice.",
       "image": "https://uscdn.eltribuno.com/112026/1794339210315.jpg",
       "published_at": "2026-11-10T19:36:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/salta/2026-11-10-15-51-0-el-senor-del-milagro-junto-al-papa-leon-xiv-en-la-catedral-de-cordoba",
-      "title": "La imagen que recorre el mundo: el Señor del Milagro junto al papa León XIV en la Catedral de Córdoba",
-      "summary": "La imagen peregrina del Cristo salteño acompañó al Pontífice durante su encuentro con religiosos y seminaristas. La transmisión oficial del Vaticano mostró en varias oportunidades al papa junto a la imagen, en una escena de profundo significado para la fe salteña.",
-      "image": "https://uscdn.eltribuno.com/112026/1794340635947.jpg",
-      "published_at": "2026-11-10T19:03:00Z"
     }
   ]
 }
