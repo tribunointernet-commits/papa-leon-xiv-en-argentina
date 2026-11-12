@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-11-12T11:52:53Z",
+  "updated_at": "2026-11-12T19:13:53Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
     "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina"
   ],
   "items": [
+    {
+      "url": "https://www.eltribuno.com/nacionales/2026-11-12-15-53-0-por-que-el-vaticano-elimino-el-mensaje-de-leon-xiv-sobre-los-dos-papas",
+      "title": "Por qué el Vaticano eliminó el mensaje de León XIV sobre los “dos Papas”",
+      "summary": "La frase había sido omitida por el Sumo Pontífice durante su discurso en Luján debido a su sensibilidad dentro de la Iglesia, en un tema que remite a la convivencia entre Francisco y Benedicto XVI.",
+      "image": "https://uscdn.eltribuno.com/112026/1794509577066.jpg",
+      "published_at": "2026-11-12T19:13:00Z"
+    },
     {
       "url": "https://www.eltribuno.com/salta/2026-11-12-0-0-0-tras-el-papa-que-cambia-en-la-politica-legisladores-saltenos-dieron-su-mirada",
       "title": "Tras el Papa, ¿qué cambia en la política? Legisladores salteños dieron su mirada",
@@ -33,13 +40,6 @@
       "summary": "La Asociación Empresaria Argentina (AEA) destacó el mensaje de paz, fraternidad y encuentro del Papa durante su estadía en el país.",
       "image": "https://uscdn.eltribuno.com/112026/1794434357980.jpg",
       "published_at": "2026-11-11T22:53:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/nacionales/2026-11-11-17-43-0-visita-del-papa-leon-xiv-a-la-argentina-el-gobierno-destaco-la-convocatoria-y-evito-hablar-de-la-carpa-vip",
-      "title": "Visita del papa León XIV a la Argentina: el Gobierno destacó la convocatoria y evitó hablar de la carpa VIP",
-      "summary": "El vocero presidencial, Adrián Ravier, calificó la gira papal como un hecho histórico y resaltó el operativo de seguridad y la participación de miles de fieles.",
-      "image": "https://uscdn.eltribuno.com/112026/1794430009547.jpg",
-      "published_at": "2026-11-11T22:48:00Z"
     }
   ]
 }
