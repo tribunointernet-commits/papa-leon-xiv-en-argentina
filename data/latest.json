@@ -1,11 +1,25 @@
 {
-  "updated_at": "2026-11-11T23:03:10Z",
+  "updated_at": "2026-11-12T03:44:57Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
     "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina"
   ],
   "items": [
+    {
+      "url": "https://www.eltribuno.com/salta/2026-11-11-22-21-0-el-senor-del-milagro-regreso-a-salta-tras-su-historico-encuentro-con-el-papa-leon-xiv-en-cordoba",
+      "title": "El Señor del Milagro regresó a Salta tras su histórico encuentro con el Papa León XIV en Córdoba",
+      "summary": "La imagen peregrina arribó a la Catedral Basílica este miércoles por la noche, recibida entre aplausos, cantos y emotivas manifestaciones en la Plaza 9 de Julio.",
+      "image": "https://uscdn.eltribuno.com/112026/1794449163057.jpg",
+      "published_at": "2026-11-12T02:03:00Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/salta/2026-11-11-0-0-0-una-saltena-detras-de-la-cancion-creada-hace-15-anos-y-que-llego-hasta-el-papa-leon-xiv",
+      "title": "VIDEO. Una salteña detrás de la canción creada hace 15 años y que llegó hasta el papa León XIV",
+      "summary": "Es una de las autoras de &quot;Vida en Abundancia&quot; y contó detalles sobre cómo se creó el tema católico que se cantó durante el paso de León XIV por Argentina.",
+      "image": "https://uscdn.eltribuno.com/112026/1794444633771.jpg",
+      "published_at": "2026-11-12T00:47:00Z"
+    },
     {
       "url": "https://www.eltribuno.com/nacionales/2026-11-11-18-52-0-empresarios-pidieron-unidad-y-dialogo-tras-la-visita-del-papa-leon-xiv",
       "title": "Empresarios pidieron unidad y diálogo tras la visita del papa León XIV",
@@ -26,20 +40,6 @@
       "summary": "El Gobierno bonaerense estimó que 3,5 millones de fieles participaron de la celebración del Papa en Luján, una cifra que la ubicaría en el podio histórico de las misas papales. El Vaticano difundió un cálculo menor. Cuáles fueron las mayores convocatorias de la Iglesia.",
       "image": "https://uscdn.eltribuno.com/112026/1794433043883.jpg",
       "published_at": "2026-11-11T21:41:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/nacionales/2026-11-11-17-27-0-papa-leon-xiv-en-argentina-las-mejores-fotos-de-su-ultimo-dia-entre-lujan-devoto-y-la-despedida",
-      "title": "Papa León XIV en Argentina: las mejores fotos de su último día, entre Luján, Devoto y la despedida",
-      "summary": "El Pontífice cerró su histórica visita a la Argentina con un encuentro con presos en la cárcel de Devoto, una misa multitudinaria frente a la Basílica de Luján y una emotiva despedida en Ezeiza, antes de partir hacia Perú. Las imágenes de una jornada inolvidable.",
-      "image": "https://uscdn.eltribuno.com/112026/1794428808122/f524648183cf82e1ee6083198b3bab85f5396c3bw.jpg",
-      "published_at": "2026-11-11T21:03:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/nacionales/2026-11-11-14-53-0-leon-xiv-se-despidio-de-la-argentina-este-pais-desde-ahora-tiene-dos-papas",
-      "title": "León XIV se despidió de la Argentina: &quot;Este país desde ahora tiene dos Papas&quot;",
-      "summary": "Tras partir rumbo a Perú el Pontífice, agradeció a través de X, el recibimiento durante su visita y aseguró que se sintió “como en casa”.",
-      "image": "https://uscdn.eltribuno.com/112026/1794419811870.jpg",
-      "published_at": "2026-11-11T18:00:00Z"
     }
   ]
 }
