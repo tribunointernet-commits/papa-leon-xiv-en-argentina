@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-11-12T19:13:53Z",
+  "updated_at": "2026-11-13T00:22:51Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
     "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina"
   ],
   "items": [
+    {
+      "url": "https://www.eltribuno.com/nacionales/2026-11-12-16-17-0-videos-los-hits-musicales-que-acompanaron-la-visita-del-papa-leon-xiv-a-la-argentina",
+      "title": "VIDEOS. Los hits musicales que acompañaron la visita del papa León XIV a la Argentina",
+      "summary": "“Alma misionera” se convirtió en una de las canciones más escuchadas y compartidas durante la visita del Pontífice. Pero no fue la única: otros clásicos de la música argentina y religiosa acompañaron los encuentros multitudinarios en Buenos Aires, Córdoba y Luján.",
+      "image": "https://uscdn.eltribuno.com/112026/1794516312330.jpg",
+      "published_at": "2026-11-12T21:05:00Z"
+    },
     {
       "url": "https://www.eltribuno.com/nacionales/2026-11-12-15-53-0-por-que-el-vaticano-elimino-el-mensaje-de-leon-xiv-sobre-los-dos-papas",
       "title": "Por qué el Vaticano eliminó el mensaje de León XIV sobre los “dos Papas”",
@@ -33,13 +40,6 @@
       "summary": "Es una de las autoras de &quot;Vida en Abundancia&quot; y contó detalles sobre cómo se creó el tema católico que se cantó durante el paso de León XIV por Argentina.",
       "image": "https://uscdn.eltribuno.com/112026/1794444633771.jpg",
       "published_at": "2026-11-12T00:47:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/nacionales/2026-11-11-18-52-0-empresarios-pidieron-unidad-y-dialogo-tras-la-visita-del-papa-leon-xiv",
-      "title": "Empresarios pidieron unidad y diálogo tras la visita del papa León XIV",
-      "summary": "La Asociación Empresaria Argentina (AEA) destacó el mensaje de paz, fraternidad y encuentro del Papa durante su estadía en el país.",
-      "image": "https://uscdn.eltribuno.com/112026/1794434357980.jpg",
-      "published_at": "2026-11-11T22:53:00Z"
     }
   ]
 }
