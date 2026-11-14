@@ -1,11 +1,32 @@
 {
-  "updated_at": "2026-11-14T19:26:06Z",
+  "updated_at": "2026-11-14T23:12:00Z",
   "source": "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
   "sources": [
     "https://www.eltribuno.com/ttag/el-papa-leon-xiv-en-la-argentina",
     "https://www.eltribuno.com/ttag/papa-leon-xiv-en-argentina"
   ],
   "items": [
+    {
+      "url": "https://www.eltribuno.com/salta/2026-11-14-20-3-0-ahora-para-nosotros-es-todo-un-desafio-lo-que-se-viene-hacia-adelante",
+      "title": "&quot;Ahora para nosotros es todo un desafío lo que se viene hacia adelante&quot;",
+      "summary": "Entrevista al monseñor Mario Antonio Cargnello.",
+      "image": "https://uscdn.eltribuno.com/112026/1794697403040.jpg",
+      "published_at": "2026-11-14T23:06:00Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/salta/2026-11-14-20-0-0-las-claves-que-dejo-la-historica-visita-papal",
+      "title": "Las claves que dejó la histórica visita papal",
+      "summary": "Noticias de Salta, Argentina y el Mundo. El Tribuno de Salta ofrece noticias de último momento, actualidad, deportes, policial, económico, social, política e información de interés general. Informate",
+      "image": "https://uscdn.eltribuno.com/112026/1794697196671.jpg",
+      "published_at": "2026-11-14T23:02:36Z"
+    },
+    {
+      "url": "https://www.eltribuno.com/salta/2026-11-14-19-40-0-leon-xiv-y-una-argentina-que-vuelve-a-mirarse-al-espejo",
+      "title": "León XIV y una Argentina que vuelve a mirarse al espejo",
+      "summary": "Reunió multitudes y dejó un mensaje que interpela a toda la dirigencia.",
+      "image": "https://uscdn.eltribuno.com/112026/1794696240513.jpg",
+      "published_at": "2026-11-14T22:46:00Z"
+    },
     {
       "url": "https://www.eltribuno.com/nacionales/2026-11-12-21-34-0-la-emotiva-carta-de-los-obispos-argentinos-al-papa-leon-xiv-la-argentina-lo-quiere-y-le-agradece-de-corazon",
       "title": "La emotiva carta de los obispos argentinos al papa León XIV: &quot;La Argentina lo quiere y le agradece de corazón&quot;",
@@ -19,27 +40,6 @@
       "summary": "“Alma misionera” se convirtió en una de las canciones más escuchadas y compartidas durante la visita del Pontífice. Pero no fue la única: otros clásicos de la música argentina y religiosa acompañaron los encuentros multitudinarios en Buenos Aires, Córdoba y Luján.",
       "image": "https://uscdn.eltribuno.com/112026/1794516312330.jpg",
       "published_at": "2026-11-12T21:05:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/nacionales/2026-11-12-15-53-0-por-que-el-vaticano-elimino-el-mensaje-de-leon-xiv-sobre-los-dos-papas",
-      "title": "Por qué el Vaticano eliminó el mensaje de León XIV sobre los “dos Papas”",
-      "summary": "La frase había sido omitida por el Sumo Pontífice durante su discurso en Luján debido a su sensibilidad dentro de la Iglesia, en un tema que remite a la convivencia entre Francisco y Benedicto XVI.",
-      "image": "https://uscdn.eltribuno.com/112026/1794509577066.jpg",
-      "published_at": "2026-11-12T19:13:00Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/salta/2026-11-12-0-0-0-tras-el-papa-que-cambia-en-la-politica-legisladores-saltenos-dieron-su-mirada",
-      "title": "Tras el Papa, ¿qué cambia en la política? Legisladores salteños dieron su mirada",
-      "summary": "Bernardo Biella, Flavia Royón y Gabriela Flores compartieron sus reflexiones.",
-      "image": "https://uscdn.eltribuno.com/112026/1794457152699.jpg",
-      "published_at": "2026-11-12T04:35:29Z"
-    },
-    {
-      "url": "https://www.eltribuno.com/salta/2026-11-11-22-21-0-el-senor-del-milagro-regreso-a-salta-tras-su-historico-encuentro-con-el-papa-leon-xiv-en-cordoba",
-      "title": "El Señor del Milagro regresó a Salta tras su histórico encuentro con el Papa León XIV en Córdoba",
-      "summary": "La imagen peregrina arribó a la Catedral Basílica este miércoles por la noche, recibida entre aplausos, cantos y emotivas manifestaciones en la Plaza 9 de Julio.",
-      "image": "https://uscdn.eltribuno.com/112026/1794449163057.jpg",
-      "published_at": "2026-11-12T02:03:00Z"
     }
   ]
 }
